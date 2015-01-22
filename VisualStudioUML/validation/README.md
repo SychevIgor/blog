@@ -88,4 +88,4 @@ ValidationMethod - это атрибут, который говорит, что 
 
 <spoiler title="И на выходе текстовый вывод"><img src="http://habrastorage.org/getpro/habr/post_images/6fd/e98/00a/6fde9800a1bc3f23914717635cc7a08a.jpg"/></spoiler>
 
-Пример на <a href="https://github.com/SychevIgor/blog_visualstudio_uml/tree/master/validation">github </a>
+Пример на <a href="https://github.com/SychevIgor/blog/tree/master/VisualStudioUML/validation">github </a>

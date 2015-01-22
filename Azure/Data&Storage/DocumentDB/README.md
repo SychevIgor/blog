@@ -155,4 +155,4 @@ Post-триггер имеет доступ к данным, которые бу
 <li> <a href="http://azure.microsoft.com/en-us/documentation/articles/documentdb-faq/">FAQ</a></li>
 </ul>
 
-Если Вы хотите помочь улучшить статью- предлогайте ваши правки через <a href="https://github.com/SychevIgor/blog_DocumentDB/blob/master/README.md">github</a>
+Если Вы хотите помочь улучшить статью- предлогайте ваши правки через <a href="https://github.com/SychevIgor/blog/blob/master/Azure/Data%26Storage/DocumentDB">github</a>

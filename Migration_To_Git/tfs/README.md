@@ -117,4 +117,4 @@ P.S.
 Очень помогает для обучение разработчиков, у которых есть некоторые теоретические знания по работе с распределенными системами хранения исходных кодов, но нет практического опыта. Я его на своих коллегах опробировал.
 <b>Ну а совсем для профи, можно мне с этим проектом помочь, есть набор <a href="https://github.com/SychevIgor/git_quiz/issues">задач</a>, до которых у меня пока руки не дошли.</b>
 
-P.S.S.  <a href="https://github.com/SychevIgor/blog_migration_to_git/tree/master/tfs">статья</a> на  github 
+P.S.S.  <a href="https://github.com/SychevIgor/blog/tree/master/Migration_To_Git/tfs">статья</a> на  github 

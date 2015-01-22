@@ -75,3 +75,5 @@
 	<li><a href="http://azure.microsoft.com/blog/2014/11/26/azure-resource-manager-2-5-for-visual-studio/">Релизная версия тулзов к студии</a></li>
 	<li><a href="http://azure.microsoft.com/en-us/documentation/articles/azure-preview-portal-using-resource-groups/">Resource groups</a></li>
 </ul>
+
+Если Вы хотите помочь улучшить статью- предлогайте ваши правки через <a href="https://github.com/SychevIgor/blog/tree/master/Azure/ResourceGroup">github</a>

@@ -78,3 +78,5 @@
 	<li>http://msdn.microsoft.com/en-us/library/azure/dn690523.aspx </li>
 	<li><a href="http://azure.microsoft.com/en-us/services/cache/">Azure Redis</a></li>
 </ul>
+
+Если Вы хотите помочь улучшить статью- предлогайте ваши правки через <a href="https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/Redis">github</a>

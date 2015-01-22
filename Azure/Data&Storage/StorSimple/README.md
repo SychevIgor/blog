@@ -92,3 +92,5 @@ Microsoft написала очень <a href="http://msdn.microsoft.com/en-us/l
 	<li><a href="http://onlinehelp.storsimple.com/">Help по хранилищу</a></li>
 	<li><a href="http://msdn.microsoft.com/en-us/library/dn757725.aspx">Терминология</a>. Полезно почитать, чтобы говорить на одном языке и уменьшить риск непонимания. </li>
 </ul>
+
+Если Вы хотите помочь улучшить статью- предлогайте ваши правки через <a href="https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/StoreSimple">github</a>

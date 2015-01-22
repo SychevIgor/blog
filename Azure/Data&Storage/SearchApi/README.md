@@ -103,4 +103,4 @@ Api поддерживает операции сортировки выдачи,
 	<li><a href="http://aws.amazon.com/cloudsearch/">Cloud Search - аналог от AWS</a> </li>
 </ul>
 
-Если Вы хотите помочь улучшить статью- предлогайте ваши правки через <a href="https://github.com/SychevIgor/blog_Azure/tree/master/SearchApi">github</a>
+Если Вы хотите помочь улучшить статью- предлогайте ваши правки через <a href="https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/SearchApi">github</a>

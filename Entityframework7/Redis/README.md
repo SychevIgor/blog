@@ -83,4 +83,4 @@ P.S.
 <img src="http://habrastorage.org/files/708/5dd/262/7085dd2626004d8b956b418d91e568bb.png" alt="image"/>
 <img src="http://habrastorage.org/files/a2a/e12/9f3/a2ae129f339f49f88632650df680680b.png" alt="image"/>
 </spoiler>
-Исходный текст статьи на <a href="https://github.com/SychevIgor/blog_entityframework7/tree/master/Redis">github</a>
+Исходный текст статьи на <a href="https://github.com/SychevIgor/blog/tree/master/Entityframework7/Redis">github</a>

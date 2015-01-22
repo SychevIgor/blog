@@ -91,3 +91,5 @@ Free, Standard, Premium. Все различия в этих планах - эт
 	<li><a href="https://preview.opinsights.azure.com/FAQ">FAQ</a></li>
 	<li>Предложить свои фичи и проголосовать за предложенные ранее можно <a href="http://feedback.azure.com/forums/267889-azure-operational-insights/">здесь</a>.</li>
 </ul>
+
+Если Вы хотите помочь улучшить статью- предлогайте ваши правки через <a href="https://github.com/SychevIgor/blog/tree/master/Azure/Management/OperationInsight">github</a>

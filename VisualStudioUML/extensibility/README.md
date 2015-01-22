@@ -87,4 +87,4 @@ Profile состоит из 3 секций:
 </ul>
 
 P.S. У меня не было задачи сделать полную генерацию XSD схему- задача была показать как это делается в принципе.
-Пример на <a href="https://github.com/SychevIgor/blog_visualstudio_uml/tree/master/extensibility">github</a>
+Пример на <a href="https://github.com/SychevIgor/blog/tree/master/VisualStudioUML/extensibility">github</a>

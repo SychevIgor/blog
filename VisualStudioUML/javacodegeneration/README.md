@@ -44,4 +44,4 @@ C# и java достаточно близкие языки, чтобы не пи�
 
 Приятного прочтения.
 Кому было интересно, есть еще несколько дней назад написанная статья про <a href="http://habrahabr.ru/post/211949/">Генерация XSD из UML</a>
-Пример на <a href="https://github.com/SychevIgor/blog_visualstudio_uml/tree/master/javacodegeneration">github</a>
+Пример на <a href="https://github.com/SychevIgor/blog/tree/master/VisualStudioUML/javacodegeneration">github</a>

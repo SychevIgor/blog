@@ -65,4 +65,6 @@ Microsoft предлагает Вам самим проложить кабель
 	<li><a href="http://msdn.microsoft.com/library/azure/dn606310.aspx">Работа с API</a></li>
 	<li><a href="http://msdn.microsoft.com/library/azure/dn606292.aspx">FAQ</a></li>
 	<li><a href="http://azure.microsoft.com/blog/2014/06/02/expressroute-an-overview/">Блог авторов</a></li>
-</ul>
+</ul
+
+Если Вы хотите помочь улучшить статью- предлогайте ваши правки через <a href="https://github.com/SychevIgor/blog/tree/master/Azure/Networking/ExpressRoute">github</a>

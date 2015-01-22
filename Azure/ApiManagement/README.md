@@ -128,4 +128,4 @@ Api можно не только создать вручную, но и <a href=
 	<li><a href="http://social.msdn.microsoft.com/forums/azure/en-US/home?forum=azureapimgmt">Форум</a></li>
 </ul>
 
-Если Вы хотите помочь улучшить статью- можно предлогать ваши правки через <a href="https://github.com/SychevIgor/blog_AzureApiManagement/blob/master/README.md">github</a>
+Если Вы хотите помочь улучшить статью- можно предлогать ваши правки через <a href="https://github.com/SychevIgor/blog/blob/master/Azure/ApiManagement">github</a>

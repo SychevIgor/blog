@@ -103,4 +103,4 @@
 	<li><a href="https://code.msdn.microsoft.com/site/search?f[0].Type=Topic&f[0].Value=Azure%20Batch&f[0].Text=Azure%20Batch">Примеры кода </a></li>
 </ul>
 
-Текст статьи доступе на <a href="https://github.com/SychevIgor/blog_Azure/tree/master/Batch">github</a>/
+Текст статьи доступе на <a href="https://github.com/SychevIgor/blog/tree/master/Azure/Batch">github</a>/

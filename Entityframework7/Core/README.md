@@ -73,4 +73,4 @@ EntityFramework пишет под тем же руководством, что �
 
 <h4><b>В общем EntityFramework 7 будет достаточно революционным на мой взгляд.</b></h4>
 
-P.S. как всегда статья доступна на <a href="https://github.com/SychevIgor/blog_entityframework7/tree/master/Core">github</a>.
+P.S. как всегда статья доступна на <a href="https://github.com/SychevIgor/blog/tree/master/Entityframework7/Core">github</a>.
