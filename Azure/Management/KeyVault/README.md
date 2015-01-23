@@ -98,3 +98,5 @@ API Version - это параметр, его текущее значение - 
 	<li><a href=" http://blogs.technet.com/b/kv/archive/2015/01/12/using-the-key-vault-for-sql-server-encryption.aspx  http://msdn.microsoft.com/library/dn198405.aspx">Использование Key Vault в SQL сервер</a></li>
 	<li><a href="http://msdn.microsoft.com/en-us/library/azure/dn903625.aspx">Стартовая страница документации на MSDN</a></li>
 </ul>
+
+Если Вы хотите помочь улучшить статью- предлогайте ваши правки через <a href="https://github.com/SychevIgor/blog/tree/master/Azure/Management/KeyVault">github</a>

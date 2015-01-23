@@ -145,4 +145,4 @@
 	<li><a href="http://azure.microsoft.com/en-us/pricing/details/storage/">Цены</a></li>
 </ul>
 
-Статья доступна на github https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/PremiumStorage
+Если Вы хотите помочь улучшить статью- предлогайте ваши правки через <a href="https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/PremiumStorage">github</a>
