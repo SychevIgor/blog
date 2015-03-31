@@ -52,7 +52,7 @@
 В Azure принято платить за исходящий трафик, CDN не исключение. Стоимость зависит от выходного потока и зоны, где расположен CDN.
 <img src="http://habrastorage.org/files/05f/a19/940/05fa1994004e43308c8509d7b90caad8.png" alt="image"/>
 Градацию цен надо понимать так: первые 10 тб в месяц будет по цене 1, с 10 тб по 50 тб по следующей цене, после превышения лимита в 50тб и до 150 цена будет уже третья. Т.е. после пересечения каждой границы интервала, следующий объем будет уже по новому тарифу. 
-<spoiler title="Для разных сервисов разные точки земного шара входят в разные зоны. Где-то 2, где-то 3.">
+<spoiler title="Для разных сервисов разные точки земного шара входят в разные зоны. Где-то 1, где-то 2.">
 <img src="http://habrastorage.org/files/ea9/3fc/015/ea93fc015afd441b842f56c784ee355d.png" alt="image"/></spoiler>
 <b>Цена на CDN - это не вся цена, которые вы платите. Отдельно вы платите за хранение данных в blob</b>, но это так, напоминание.
 
@@ -62,4 +62,4 @@
 	<li><a href="http://azure.microsoft.com/en-us/pricing/details/cdn/">Цены</a></li>
 	<li><a href="https://social.msdn.microsoft.com/Search/en-US/?query=CDN&rq=meta:Search.MSForums.GroupID(cce86a2c-2881-4856-8ff0-3528d44cf49c)%20site:microsoft.com&rn=All%20Windows%20Azure%20Platform%20Forums">Форум</a></li>
 </ul>
-P.S. Если Вы хотите помочь улучшить статью- можно предлогать ваши правки через <a href="https://github.com/SychevIgor/blog/blob/master/Azure/MediaServices%26CDN/CDN">github</a>
+P.S. Если Вы хотите помочь улучшить статью- можно предлогать ваши правки через <a href="https://github.com/SychevIgor/blog/tree/master/Azure/Media&CDN/CDN">github</a>
