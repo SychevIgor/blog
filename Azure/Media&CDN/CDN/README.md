@@ -62,4 +62,4 @@
 	<li><a href="http://azure.microsoft.com/en-us/pricing/details/cdn/">Цены</a></li>
 	<li><a href="https://social.msdn.microsoft.com/Search/en-US/?query=CDN&rq=meta:Search.MSForums.GroupID(cce86a2c-2881-4856-8ff0-3528d44cf49c)%20site:microsoft.com&rn=All%20Windows%20Azure%20Platform%20Forums">Форум</a></li>
 </ul>
-P.S. Если Вы хотите помочь улучшить статью- можно предлогать ваши правки через <a href="https://github.com/SychevIgor/blog/blob/master/Azure/MediaServices%26CDN/CDN">github</a>
+P.S. Если Вы хотите помочь улучшить статью- можно предлогать ваши правки через <a href="https://github.com/SychevIgor/blog/blob/master/Azure/Media%26CDN/CDN">github</a>
