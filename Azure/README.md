@@ -4,10 +4,9 @@
 <li>Web&Mobile
 <ul>
 <li>WebJob https://github.com/SychevIgor/blog/tree/master/Azure/Web%26Mobile/WebJob</li>
+<li>ApiManagement https://github.com/SychevIgor/blog/tree/master/Azure/Web%26Mobile/ApiManagement</li>
 </ul>
-</li>
-<li>ApiManagement https://github.com/SychevIgor/blog/tree/master/Azure/ApiManagement</li>
-<li>Batch https://github.com/SychevIgor/blog/tree/master/Azure/Batch</li>
+</li><li>Batch https://github.com/SychevIgor/blog/tree/master/Azure/Batch</li>
 <li>Data Factory https://github.com/SychevIgor/blog/tree/master/Azure/DataFactory</li>
 <li>Resource Group and Deployment https://github.com/SychevIgor/blog/tree/master/Azure/ResourceGroup</li>
 <li>Раздел Data&Storage
