@@ -5,6 +5,7 @@
 <ul>
 <li>WebJob https://github.com/SychevIgor/blog/tree/master/Azure/Web%26Mobile/WebJob</li>
 <li>ApiManagement https://github.com/SychevIgor/blog/tree/master/Azure/Web%26Mobile/ApiManagement</li>
+<li>PerformanceTest https://github.com/SychevIgor/blog/tree/master/Azure/Web%26Mobile/PerformanceTest</li>
 </ul>
 </li><li>Batch https://github.com/SychevIgor/blog/tree/master/Azure/Batch</li>
 <li>Data Factory https://github.com/SychevIgor/blog/tree/master/Azure/DataFactory</li>
