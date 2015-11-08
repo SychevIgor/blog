@@ -10,6 +10,7 @@
 </li><li>Batch https://github.com/SychevIgor/blog/tree/master/Azure/Batch</li>
 <li>Data Factory https://github.com/SychevIgor/blog/tree/master/Azure/DataFactory</li>
 <li>Resource Group and Deployment https://github.com/SychevIgor/blog/tree/master/Azure/ResourceGroup</li>
+<li>Azure for Devs https://github.com/SychevIgor/blog/tree/master/Azure/AzureForDev</li>
 <li>Раздел Data&Storage
 <ul>
 <li>DocumentDB https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/DocumentDB</li>
