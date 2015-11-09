@@ -64,6 +64,12 @@
 <li>Кастомная Валидация uml модели https://github.com/SychevIgor/blog/tree/master/VisualStudioUML/validation</li>
 </ul>
 
+Статьи по ASPNET
+=====================
+<ul>
+<li>SignalR_BackPlane https://github.com/SychevIgor/blog/tree/master/ASPNET/SignalR_BackPlane</li>
+</ul>
+
 <b>UI системы RealTime мониторинга на typescript</b>
 <ul>
 <li>WF + StreamInsight https://github.com/SychevIgor/blog/master/realtimemonitoring/General</li>
@@ -72,7 +78,6 @@
 
 <b>Статьи не попавшие под группировку</b>
 <ul>
-<li>SignalR BackPlane https://github.com/SychevIgor/blog/tree/master/SignalR_BackPlane</li>
 <li>AppFabric https://github.com/SychevIgor/blog/tree/master/AppFabric</li>
 </ul>
 
