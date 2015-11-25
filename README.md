@@ -1,105 +1,102 @@
 ﻿Статьи из моего блога
 ====
+<a href=""></a>
 <b>Статьи по Microsoft Azure</b>
 <ul>
 <li>Web&Mobile
 <ul>
-<li>WebJob https://github.com/SychevIgor/blog/tree/master/Azure/Web%26Mobile/WebJob</li>
-<li>ApiManagement https://github.com/SychevIgor/blog/tree/master/Azure/Web%26Mobile/ApiManagement</li>
-<li>PerformanceTest https://github.com/SychevIgor/blog/tree/master/Azure/Web%26Mobile/PerformanceTest</li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Web%26Mobile/WebJob">WebJob</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Web%26Mobile/ApiManagement">ApiManagement</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Web%26Mobile/PerformanceTest">PerformanceTest</a></li>
 </ul>
 </li>
-<li>Batch https://github.com/SychevIgor/blog/tree/master/Azure/Batch</li>
-<li>Data Factory https://github.com/SychevIgor/blog/tree/master/Azure/DataFactory</li>
-<li>Resource Group and Deployment https://github.com/SychevIgor/blog/tree/master/Azure/ResourceGroup</li>
-<li>Azure for Devs https://github.com/SychevIgor/blog/tree/master/Azure/AzureForDev</li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Batch">Batch</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/DataFactory">Data Factory</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/ResourceGroup">Resource Group and Deployment</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/AzureForDev">Azure for Devs</a></li>
 <li>Раздел Data&Storage
 <ul>
-<li>DocumentDB https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/DocumentDB</li>
-<li>Premium Storage https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/PremiumStorage</li>
-<li>Redis https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/Redis</li>
-<li>Search https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/SearchApi</li>
-<li>StorSimple https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/StorSimple</li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/DocumentDB">DocumentDB</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/PremiumStorage">Premium Storage</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/Redis">Redis</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/SearchApi">Search</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/StorSimple">StorSimple</a></li>
 </ul>
 </li>
 <li>Раздел Management
 <ul>
-<li>Automation https://github.com/SychevIgor/blog/tree/master/Azure/Management/Automation</li>
-<li>Key Vault https://github.com/SychevIgor/blog/tree/master/Azure/Management/KeyVault</li>
-<li>Operation Insights https://github.com/SychevIgor/blog/tree/master/Azure/Management/OperationInsights</li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Management/Automation">Automation</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Management/KeyVault">Key Vault</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Management/OperationInsights">Operation Insights</a></li>
 </ul>
 </li>
 <li>Раздел Networking
 <ul>
-<li>Express Route https://github.com/SychevIgor/blog/tree/master/Azure/Networking/ExpressRoute</li>
-<li>Traffic Manager https://github.com/SychevIgor/blog/tree/master/Azure/Networking/TrafficManager</li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Networking/ExpressRoute">Express Route</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Networking/TrafficManager">Traffic Manager</a></li>
 </ul>
 </li>
 </ul>
 
-<b>Статьи по EntityFramework7</b>
-<ul>
-<li>Core https://github.com/SychevIgor/blog/tree/master/Entityframework7/Core</li>
-<li>Redis https://github.com/SychevIgor/blog/tree/master/Entityframework7/Redis</li>
-</ul>
 
 <b>Статьи по стажировке в Microsoft Research в 2012 году.</b>
 <ul>
-<li>Учеба для Microsoft Research?! https://github.com/SychevIgor/blog/tree/master/InternshipMSR/coursesforinternship</li>
-<li>Стажировка в Microsoft Research — подача резюме https://github.com/SychevIgor/blog/tree/master/InternshipMSR/cv</li>
-<li>Мои первые 2 недели в Microsoft Research https://github.com/SychevIgor/blog/tree/master/InternshipMSR/firsttwoweek</li>
-<li>Летняя стажировка в Microsoft Research 2012 в Redmond https://github.com/SychevIgor/blog/tree/master/InternshipMSR/init</li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/InternshipMSR/coursesforinternship">Учеба для Microsoft Research?!</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/InternshipMSR/cv">Стажировка в Microsoft Research — подача резюме</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/InternshipMSR/firsttwoweek">Мои первые 2 недели в Microsoft Research</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/InternshipMSR/init">Летняя стажировка в Microsoft Research 2012 в Redmond</a></li>
 </ul>
 
 <b>Статьи по миграции из различных source control на git</b>
 <ul>
-<li>Из svn https://github.com/SychevIgor/blog/tree/master/Migration_To_Git/tfs</li>
-<li>Из tfs https://github.com/SychevIgor/blog/tree/master/Migration_To_Git/svn</li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Migration_To_Git/tfs">Из svn</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Migration_To_Git/svn">Из tfs</a></li>
 </ul>
 
 <b>Статьи по работе с visual studio uml</b>
 <ul>
-<li>Генерация java кода https://github.com/SychevIgor/blog/tree/master/VisualStudioUML/javacodegeneration</li>
-<li>Расширения интерфейса редактора https://github.com/SychevIgor/blog/tree/master/VisualStudioUML/extensibility</li>
-<li>Кастомная Валидация uml модели https://github.com/SychevIgor/blog/tree/master/VisualStudioUML/validation</li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/VisualStudioUML/javacodegeneration">Генерация java кода</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/VisualStudioUML/extensibility">Расширения интерфейса редактора</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/VisualStudioUML/validation">Кастомная Валидация uml модели</a></li>
 </ul>
 
 Статьи по ASPNET
 =====================
 <ul>
-<li>Debug https://github.com/SychevIgor/blog/tree/master/ASPNET/Debug</li>
-<li>SignalR_BackPlane https://github.com/SychevIgor/blog/tree/master/ASPNET/SignalR_BackPlane</li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/ASPNET/Debug">Debug</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/ASPNET/SignalR_BackPlane">SignalR_BackPlane</a></li>
+<li><ul>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/ASPNET/Entityframework7/Core">Core</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/ASPNET/Entityframework7/Redis">Redis</a></li>
+</ul></li>
 </ul>
-
 
 <b>UI системы RealTime мониторинга на typescript</b>
 <ul>
-<li>WF + StreamInsight https://github.com/SychevIgor/blog/master/realtimemonitoring/General</li>
-<li>TypeScript https://github.com/SychevIgor/blog/master/Realtimemonitoring/TypeScript</li>
+<li><a href="https://github.com/SychevIgor/blog/master/realtimemonitoring/General">WF + StreamInsight</a></li>
+<li><a href="https://github.com/SychevIgor/blog/master/Realtimemonitoring/TypeScript">TypeScript</a></li>
 </ul>
 
 <b>Статьи не попавшие под группировку</b>
 <ul>
-<li>AppFabric https://github.com/SychevIgor/blog/tree/master/AppFabric</li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/AppFabric">AppFabric</a></li>
 </ul>
 
 <b>Статьи 2010 года по параллельному программированию в .net 4.0</b>
 <ul>
-<li>Examples https://github.com/SychevIgor/blog/tree/master/ParallelProgramming/Examples</li>
-<li>Partitioning https://github.com/SychevIgor/blog/tree/master/ParallelProgramming/Partitioning</li>
-<li>TPL https://github.com/SychevIgor/blog/tree/master/ParallelProgramming/TPL</li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/ParallelProgramming/Examples">Examples</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/ParallelProgramming/Partitioning">Partitioning</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/ParallelProgramming/TPL">TPL</a</li>
 </ul>
 
 <b>Статьи 2010 года математическим библиотекам для .net</b>
 <ul>
-<li>OPENSource библиотеки структур данных и математические библиотеки. Часть 1 https://github.com/SychevIgor/blog/tree/master/DotNetMath/1</li>
-<li>Opensource библиотеки структур данных и математические библиотеки .Net Часть 2 https://github.com/SychevIgor/blog/tree/master/DotNetMath/2</li>
-<li>Матбиблиотеки на .Net НЕ с codeplex или googlecode https://github.com/SychevIgor/blog/tree/master/DotNetMath/3</li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/DotNetMath/1">OPENSource библиотеки структур данных и математические библиотеки. Часть 1</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/DotNetMath/2">Opensource библиотеки структур данных и математические библиотеки .Net Часть 2</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/DotNetMath/3">Матбиблиотеки на .Net НЕ с codeplex или googlecode</a></li>
 </ul>
 Статьи по Windows 10
 <ul>
-
-<li>Обзор изменения для разработчиков https://github.com/SychevIgor/blog/tree/master/Windows/Overview10</li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Windows/Overview10">Обзор изменения для разработчиков</a></li>
 </li>
-
 </ul>
