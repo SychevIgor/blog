@@ -1,12 +1,15 @@
-В начале 2015 года я уже <a href="http://habrahabr.ru/company/microsoft/blog/247531/">рассказывал</a>, что Microsoft теперь рекомендует использовать Redis в качестве кэша для всех новых проектов в Azure, а объявлена эта рекомендация была еще в 2014 году. 
-В ноябре 2015 нам сообщили, что кэш внутри cloud service признан <a href="https://azure.microsoft.com/en-us/documentation/articles/cache-faq/#which-azure-cache-offering-is-right-for-me">устаревшим </a>, и в будущих версиях sdk мы удалим работу с ним, и надо использовать Redis Cache. Именно это событие и побудило меня рассказать, что добавилось за прошедший год в Redis.
+В начале 2015 года я уже <a href="http://habrahabr.ru/company/microsoft/blog/247531/">рассказывал</a>, что Microsoft теперь рекомендует использовать Redis в качестве кэша для всех новых проектов в Azure, а объявлена эта рекомендация была еще в 2014 году.  В ноябре 2015 нам сообщили, что кэш внутри cloud service признан <a href="https://azure.microsoft.com/en-us/documentation/articles/cache-faq/#which-azure-cache-offering-is-right-for-me">устаревшим </a>, и в будущих версиях sdk мы удалим работу с ним, и надо использовать Redis Cache. Именно это событие и побудило меня рассказать, что добавилось за прошедший год в Redis.
 
-Давайте пойдем не от документации, а от портала.
-Момент первый: есть много разных решений на портале, которые в названии имеют слово Redis. 
-<spoiler title="Это наши партнеры постарались, за что им спасибо. Нам же нужно то, которое опубликовала Microsoft."><img src="https://habrastorage.org/files/391/959/721/3919597212c74993af19a6740a670afe.png"/></spoiler>
-Открываем панель настроек
-Первый и самый базовый вопрос: какой набор фич выбрать (от этого набора фич зависит и стоимость)?
- <img src="https://habrastorage.org/files/042/c75/587/042c755875684eba9fbcb3dd3e68e8d3.png"/>
+<img width="650" align="center" src="https://habrastorage.org/files/1b7/022/66f/1b702266f3cd41d1aab8cb498f903f75.png"/>
+Давайте пойдем не от документации, а от портала. Момент первый: есть много разных решений на портале, которые в названии имеют слово Redis. 
+<cut text="Давайте разберем каждую фичу по отдельности." />
+<spoiler title="Это наши партнеры постарались, за что им спасибо. Нам же нужно то, которое опубликовала Microsoft.">
+
+<img width="650" align="center" src="https://habrastorage.org/files/391/959/721/3919597212c74993af19a6740a670afe.png"/></spoiler>
+Открываем панель настроек. Первый и самый базовый вопрос: какой набор фич выбрать (от этого набора фич зависит и стоимость)?
+ 
+<img width="650" align="center" src="https://habrastorage.org/files/042/c75/587/042c755875684eba9fbcb3dd3e68e8d3.png"/>
+
 Не думайте, что на картинке все возможные варианты с объем памяти, он может быть больше. Тут показаны именно наборы фичей.
 Какие варианты мы видим? 
 <ul>
@@ -14,36 +17,52 @@
 	<li><b>Standard</b>- ресурсы уже будут зарезервированы под вашу базу - и никаких шумных соседей, появляется SLA, т.к. и объем базы выше, и появляется вторая реплика ваших данных.</li>
 	<li><b>Premium</b>- самая крутая (включает все опции от standard и еще много чего… но и самая дорогая), которую я предлагаю рассмотреть ниже.</li>
 </ul>
- <cut text="Давайте разберем каждую фичу по отдельности." />
 <h5><b><a href=" https://azure.microsoft.com/en-us/documentation/articles/cache-how-to-premium-clustering/">Clustering</a></b></h5>
 Суть кластера - разбить данные на части и получить горизонтально-масштабируемую конфигурацию. Redis для вас раскидает ключи по нескольким шардам. 
 Год назад в azure, cluster создать было нельзя, да и вне azure эта фича была “alpha quality” (требующая доработок). 
-<img src="https://habrastorage.org/files/a9a/155/0ae/a9a1550ae7a14bbc918d0b986283f417.png"/>
+
+<img width="650" align="center" src="https://habrastorage.org/files/a9a/155/0ae/a9a1550ae7a14bbc918d0b986283f417.png"/>
+
 Как мы видим, чем больше шардов мы используем, тем выше максимальный (суммарный) размер хранилища. Правда, чем больше объем, тем выше будет цена за итоговое решение. Максимально можно собрать кластер на 530 Гб (10 шардов по 53 Гб)
 
 <h5><b><a href="https://azure.microsoft.com/en-us/documentation/articles/cache-how-to-premium-persistence/">Persistence </a></b></h5>
 Persistence - это сохранение inmemory базы данных на диск или - если быть точнее - на storage. Сохранение на данный момент происходит единым куском, а не инкрементально, т.к. это <a href="http://redis.io/topics/persistence">RDB </a>способ. В <a href="https://azure.microsoft.com/en-us/blog/azure-redis-cache-public-preview-of-premium-tier/">планах </a>есть и второй способ сохранения данных в storage, AOF, но когда его сделают доступным информации нет.
-<img src="https://habrastorage.org/files/a9a/155/0ae/a9a1550ae7a14bbc918d0b986283f417.png"/>
+
+<img width="650" align="center" src="https://habrastorage.org/files/a9a/155/0ae/a9a1550ae7a14bbc918d0b986283f417.png"/>
+
 Мы рекомендуем использовать premium storage, потому что он быстрее, т.к. основан на SSD. Все-таки писать из быстрой inmemory-базы на медленное hdd-хранилище – это достаточно редкое сочетание. Но если Вы хотите – пожалуйста, пишите на standard storage.
 
 <h5><b><a href="https://azure.microsoft.com/en-us/documentation/articles/cache-how-to-premium-vnet/">Интеграция с виртуальными сетями</a></b></h5>
  Я специально оставил подсказку с портала, чтобы было проще объяснить. Вы можете обращаться к созданному для Вас Redis-кластеру либо из интернета, либо из виртуальной сети. Либо по public ip, либо по private. Лично мне этой функции ранее больше всего не хватало.
- <img src="https://habrastorage.org/files/ff1/4d1/324/ff14d132471d4d7986ab68494339aea0.png"/>
+ 
+<img align="center" src="https://habrastorage.org/files/ff1/4d1/324/ff14d132471d4d7986ab68494339aea0.png"/>
+
 Есть и второе ограничение: на данный момент мы можем использовать “Classic” виртуальные сети, что лично для меня печально. Если вы с этим согласны, прошу проголосовать <a href="https://feedback.azure.com/forums/169382-cache/suggestions/11327502-add-integration-with-v2-virtual-networks">за мою идею</a>, чтобы команда разработки приоритезировала эту задачу.
 
-<b>После того, как мы создали наш redis cache, можно посмотреть на остальные его опции.</b>
-Во-первых, все указанные нами ранее параметры можно изменить: не хватает объем=> увеличиваем объем, решили добавить еще 1 шард=> устанавливаем sharding в enable, добавляем шард, а redis перераспределяет ключи (мы должны понимать, что это не мгновенная операция).
+<b>После того, как мы создали наш redis cache, можно посмотреть на остальные его опции.</b> Во-первых, все указанные нами ранее параметры можно изменить: не хватает объем=> увеличиваем объем, решили добавить еще 1 шард=> устанавливаем sharding в enable, добавляем шард, а redis перераспределяет ключи (мы должны понимать, что это не мгновенная операция).
 
 <h5><b>Мониторинг</b></h5>
- <img src="https://habrastorage.org/files/038/b3e/337/038b3e3372d5454096e7a43fbefb565d.png"/>
+ 
+<img width="650" align="center" src="https://habrastorage.org/files/038/b3e/337/038b3e3372d5454096e7a43fbefb565d.png"/>
+
 Если вы включили опцию мониторинг, то эксплуатация становится намного проще: вы будете знать и сколько у вас активных коннектов было, и размер потребляемой памяти, и еще множество метрик, которые можно настроить.
-<img src="https://habrastorage.org/files/40e/110/21f/40e11021f8a84ff9ba546dfd5c20f147.png"/>
+
+<img width="650" align="center" src="https://habrastorage.org/files/40e/110/21f/40e11021f8a84ff9ba546dfd5c20f147.png"/>
+
 Ну и естественно, вы можете настроить нотификации (alerts), если какие-то метрики вышли из диапазона допустимых значений. В частности, можно указать количество соединений, и, если их число превысит порог, получить сообщение на почту.
  
 <h5><b>Configuration as Code</b></h5>
-Конфигурацию Redis можно задать в виде <a href="https://azure.microsoft.com/en-us/documentation/articles/cache-redis-cache-arm-provision/">ARM шаблона 
-</a>
-В Visual Studio это будет выглядеть как JSON файл. Считайте, что это design time шаблон. <img src="https://habrastorage.org/files/5dd/d5f/fd9/5ddd5ffd9db249cc8eb6ad57bbd96160.png"/>
+Конфигурацию Redis можно задать в виде <a href="https://azure.microsoft.com/en-us/documentation/articles/cache-redis-cache-arm-provision/">ARM шаблона</a>.
+
+В Visual Studio это будет выглядеть как JSON файл. Считайте, что это design time шаблон. 
+
+<img width="650" align="center"  src="https://habrastorage.org/files/5dd/d5f/fd9/5ddd5ffd9db249cc8eb6ad57bbd96160.png"/>
 
 А также мы можем посмотреть на execution time представление этого шаблона по адресу: https://resources.azure.com/
-<img src="https://habrastorage.org/files/944/e5f/0a4/944e5f0a41cd44ce80427fea565dd7ba.png"/>
+
+<img width="650" align="center" src="https://habrastorage.org/files/944/e5f/0a4/944e5f0a41cd44ce80427fea565dd7ba.png"/>
+
+<h5><b>Заключение</b></h5>
+В этом кратком обзоре мы рассмотрели новые функции, которые были добавлены в сервис Redis в облаке Microsoft Azure. Сервис предоставления Redis по запросу получил важные функции кластеризации, persistence, поддержки виртуальных сетей, расширенные возможности мониторинга, конфигурирование в виде ARM-шаблонов.
+
+Сервис Redis постоянно развивается и предлагает новые функции вместе с удобством предоставления баз данных по запросу без личшней настройки инфраструктуры.
