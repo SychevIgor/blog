@@ -13,11 +13,12 @@
 <li>Azure for Devs https://github.com/SychevIgor/blog/tree/master/Azure/AzureForDev</li>
 <li>Раздел Data&Storage
 <ul>
-<li>DocumentDB https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/DocumentDB</li>
-<li>Premium Storage https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/PremiumStorage</li>
-<li>Redis https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/Redis</li>
-<li>Search https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/SearchApi</li>
-<li>StorSimple https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/StorSimple</li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/DocumentDB">DocumentDB</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/PremiumStorage">Premium Storage</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/Redis">Redis</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/Redis2">Обновленный сервис Redis в облаке Azure: кластеризация, persistence, VNET и другое</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/SearchApi">Search</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/StorSimple">StorSimple</a></li>
 </ul>
 </li>
 <li>Раздел Management
