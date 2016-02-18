@@ -12,6 +12,7 @@
 </li>
 <li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Batch">Batch</a></li>
 <li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/DataFactory">Data Factory</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/SecurityCenter">Security Center</a></li>
 <li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/ResourceGroup">Resource Group and Deployment</a></li>
 <li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/AzureForDev">Azure for Devs</a></li>
 <li>Раздел Data&Storage
