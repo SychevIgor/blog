@@ -40,19 +40,34 @@
 </li>
 </ul>
 
+<b>Статьи по миграции из различных source control на git</b>
+<ul>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Migration_To_Git/tfs">Из svn</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Migration_To_Git/svn">Из tfs</a></li>
+</ul>
 
+<ul>
+<li>Debug https://github.com/SychevIgor/blog/tree/master/ASPNET/AspNetCore_Debug</li>
+<li>SignalR_BackPlane https://github.com/SychevIgor/blog/tree/master/ASPNET/SignalR_BackPlane</li>
+<li><ul>
+<li>Core https://github.com/SychevIgor/blog/tree/master/ASPNET/EntityframeworkCore/Core</li>
+<li>Redis https://github.com/SychevIgor/blog/tree/master/ASPNET/EntityframeworkCore/Redis</li>
+</ul></li>
+</ul>
+
+<b>Статьи по Windows 10</b>
+<ul>
+<li><a href="https://github.com/SychevIgor/blog/tree/master/Windows/Overview10">Обзор изменения для разработчиков</a></li>
+</ul>
+
+
+---------------------------------------------------------------------------
 <b>Статьи по стажировке в Microsoft Research в 2012 году.</b>
 <ul>
 <li><a href="https://github.com/SychevIgor/blog/tree/OldPosts/InternshipMSR/coursesforinternship">Учеба для Microsoft Research?!</a></li>
 <li><a href="https://github.com/SychevIgor/blog/tree/OldPosts/InternshipMSR/cv">Стажировка в Microsoft Research — подача резюме</a></li>
 <li><a href="https://github.com/SychevIgor/blog/tree/OldPosts/InternshipMSR/firsttwoweek">Мои первые 2 недели в Microsoft Research</a></li>
 <li><a href="https://github.com/SychevIgor/blog/tree/OldPosts/InternshipMSR/init">Летняя стажировка в Microsoft Research 2012 в Redmond</a></li>
-</ul>
-
-<b>Статьи по миграции из различных source control на git</b>
-<ul>
-<li><a href="https://github.com/SychevIgor/blog/tree/master/Migration_To_Git/tfs">Из svn</a></li>
-<li><a href="https://github.com/SychevIgor/blog/tree/master/Migration_To_Git/svn">Из tfs</a></li>
 </ul>
 
 <b>Статьи по работе с visual studio uml</b>
@@ -62,21 +77,6 @@
 <li><a href="https://github.com/SychevIgor/blog/tree/OldPosts/VisualStudioUML/validation">Кастомная Валидация uml модели</a></li>
 </ul>
 
-Статьи по ASPNET
-=====================
-<ul>
-<li><a href="https://github.com/SychevIgor/blog/tree/master/ASPNET/Debug">Debug</a></li>
-<li><a href="https://github.com/SychevIgor/blog/tree/master/ASPNET/SignalR_BackPlane">SignalR_BackPlane</a></li>
-<li><ul>
-<li><a href="https://github.com/SychevIgor/blog/tree/master/ASPNET/Entityframework7/Core">Core</a></li>
-<li><a href="https://github.com/SychevIgor/blog/tree/master/ASPNET/Entityframework7/Redis">Redis</a></li>
-</ul></li>
-</ul>
-Статьи по Windows 10
-<ul>
-<li><a href="https://github.com/SychevIgor/blog/tree/master/Windows/Overview10">Обзор изменения для разработчиков</a></li>
-</li>
-</ul>
 <b>UI системы RealTime мониторинга на typescript</b>
 <ul>
 <li><a href="https://github.com/SychevIgor/blog/OldPosts/realtimemonitoring/General">WF + StreamInsight</a></li>
@@ -85,7 +85,8 @@
 
 <b>Статьи не попавшие под группировку</b>
 <ul>
-<li><a href="https://github.com/SychevIgor/blog/tree/OldPosts/AppFabric">AppFabric</a></li>
+<li><a href="https://github.com/SychevIgor/blog/tree/OldPosts/AppFabric">AppFabric</a>
+</li>
 </ul>
 
 <b>Статьи 2010 года по параллельному программированию в .net 4.0</b>

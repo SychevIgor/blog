@@ -1,0 +1,8 @@
+{
+    "projects": [ "src" ,    "C:/Users/igorsych/Desktop/MVC6Testing/code/mvc/src"],
+    "sdk": {
+        "version": "1.0.0-beta8",
+        "runtime": "clr",
+        "architecture": "x86"
+    }
+}
