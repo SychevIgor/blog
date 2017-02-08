@@ -5,8 +5,6 @@
 <ul>
 <li>Web&Mobile
 <ul>
-<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Web%26Mobile/WebJob">WebJob</a></li>
-<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Web%26Mobile/ApiManagement">ApiManagement</a></li>
 <li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Web%26Mobile/PerformanceTest">PerformanceTest</a></li>
 </ul>
 </li>
@@ -17,7 +15,6 @@
 <li>Раздел Data&Storage
 <ul>
 <li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/DocumentDB">DocumentDB</a></li>
-<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/PremiumStorage">Premium Storage</a></li>
 <li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/Redis">Redis</a></li>
 <li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/Redis2">Обновленный сервис Redis в облаке Azure: кластеризация, persistence, VNET и другое</a></li>
 <li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Data%26Storage/SearchApi">Search</a></li>
@@ -26,7 +23,6 @@
 </li>
 <li>Раздел Management
 <ul>
-<li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Management/Automation">Automation</a></li>
 <li><a href="https://github.com/SychevIgor/blog/tree/master/Azure/Management/KeyVault">Key Vault</a></li>
 </ul>
 </li>
