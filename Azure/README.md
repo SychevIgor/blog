@@ -3,8 +3,6 @@
 <ul>
 <li>Web&Mobile
 <ul>
-<li>WebJob https://github.com/SychevIgor/blog/tree/master/Azure/Web%26Mobile/WebJob</li>
-<li>ApiManagement https://github.com/SychevIgor/blog/tree/master/Azure/Web%26Mobile/ApiManagement</li>
 <li>PerformanceTest https://github.com/SychevIgor/blog/tree/master/Azure/Web%26Mobile/PerformanceTest</li>
 </ul>
 </li><li>Batch https://github.com/SychevIgor/blog/tree/master/Azure/Batch</li>
@@ -23,7 +21,6 @@
 </li>
 <li>Раздел Management
 <ul>
-<li>Automation https://github.com/SychevIgor/blog/tree/master/Azure/Management/Automation</li>
 <li>Key Vault https://github.com/SychevIgor/blog/tree/master/Azure/Management/KeyVault</li>
 </ul>
 </li>
