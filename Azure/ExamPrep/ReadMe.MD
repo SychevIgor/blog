@@ -202,6 +202,14 @@
 
 Но еще раз повторюсь: выглядит очень близко к тому, что описано на страницах с экзаменами.
 
+<h2>Linuxacademyкурсы</h2>
+Курсы на этом ресурсе появились позже, чем на остальных, но тоже можно их рассмотреть
+<ul>
+	<li><a href="https://linuxacademy.com/azure/training/course/name/microsoft-azure-infrastructure-and-deployment-exam-az-100">az-100 admins</a>(сам az-100 уже устарел, но этот курс покрывает большую нового экзамена az-103)</li>
+	<li><a href="https://linuxacademy.com/azure/training/course/name/microsoft-certified-azure-developer-exam-203-prep">az-203 dev</a></li>
+	<li><a href="https://linuxacademy.com/azure/training/course/name/az-300-exam-preparation-microsoft-azure-architect-technologies">az-300 arch</a></li>
+</ul>
+
 <h2>Курсы для Microsoft Partners</h2>
 Microsoft для своих Partners делает study groups. Это серия видео курсов, по часу на модуль (для az-203 их 6 штук), и набор ссылок к ним. Можно саму зарегистрироваться и посмотреть, если вы знаете свой MCP ID и MS Partner ID (MPID)
 <ul>
@@ -238,7 +246,7 @@ Microsoft опубликовала на github серию Cloud Workshops, в к
 
 <h2><a href="https://docs.microsoft.com/en-us/azure/architecture/">Azure Architecture Center</a></h2>
 Хороший ресурс, созданный командой <a href="https://github.com/mspnp">Patterns and Practices</a>, который при очень большом желании можно осилить за день (прочесть все статьи). 
-
+Есть еще нишевые примеры, такие как <a href="https://docs.microsoft.com/en-us/gaming/azure/reference-architectures/general-guidelines">Architecture for Gaming</a>.
 <ul>
 	<li>Можно разобраться с <b>паттернами</b>, которые выделила pnp команд (не скажу, что ракетные технологии, но так и в GangOf4 тоже не про космос пишут). Например, <a href="https://docs.microsoft.com/en-us/azure/architecture/patterns/competing-consumers">competing-consumers</a>. Эти паттерны встречаются в курсах AZ-300, и, возможно, встречаются в экзаменах.</li>
 	<li>Почитать <b>Checklists </b>по разным направлениям. Например, <b>Resiliency/Scalability</b> checklist (тоже не квантовая хромодинамика, но чеклисты и не для этого создаются, а чтобы не пропустить чего случайно)</li>
