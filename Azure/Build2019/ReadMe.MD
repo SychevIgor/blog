@@ -34,13 +34,26 @@
 <h2>Service Fabric vs Kubernetes</h2>
 3 года в Microsoft и уже почти полгода в EPAM я не могу дать нормального технического объяснения зачем нужен Service Fabric (и вы, при этом, не работаете в Microsoft), если есть Kubernetes. 
 <ul>
-	<li>Долгое время "толмачи от маркетинга" рассказывали, что это равные платформы, но это не так (гуглится элементарно).</li>
+	<li>Долгое время "толмачи" рассказывали, что это равные платформы, но это не так (гуглится элементарно).</li>
 <li>Затем были разговоры, что SF более зрелый для Windows development, а Kubernetes для Linux.</li>
 	<li>Ну и заодно, мол, на SF ваши разработчики смогут использовать свои навыки работы в Windows Environment, а в K8s надо изучить Linux и переучиваться. Согласен, legacy код и необходимость переучивать-переучиваться – это серьезный аргумент, а с другой стороны - SF была достаточно сложной, и на мой взгляд ничуть не легче чем K8s. Ну а Linux с одной стороны изучать и знать надо в любом случае. Даже закостенелому “виндузятнику”(коим и я являюсь). А с другой - Kubernetes достаточно сильно от этого абстрагирует.</li>
 </ul>
 На Build2019 я для себя поставил крест на SF, т.к. по нему был <a href="https://mybuild.techcommunity.microsoft.com/sessions/77069">1 доклад (хотя в названии и было про Mission Critical ***)</a>. 
-А по Kubernetes штук 20-30 во всех разрезах (<a href="https://mybuild.techcommunity.microsoft.com/sessions/77059">Fundamentals of Kubernetes on Microsoft Azure and the road ahead (планы развития)</a> и <a href="https://mybuild.techcommunity.microsoft.com/sessions/77799">Serverless Kubernetes, KEDA (event based auto-scaling), and Azure Functions(запуск Azure Functions на Kubernetes)</a>, разработка, облака, devops <a href="https://mybuild.techcommunity.microsoft.com/sessions/77569">YAML CI/CD and Kubernetes Deployments</a> <a href="https://mybuild.techcommunity.microsoft.com/sessions/77060"> тут</a> и <a href="https://mybuild.techcommunity.microsoft.com/sessions/77045">From Zero to DevOps Superhero: The Container Edition(хотя, если вы уже используете AKS и Azure DevOps, то вряд ли что-то новое услышите)</a> а еще <a href="https://mybuild.techcommunity.microsoft.com/sessions/77598">Developer collaboration prototypes for AKS with Dev Spaces</a>. <a href="https://mybuild.techcommunity.microsoft.com/sessions/77061">Enterprise security in the era of containers and Kubernetes</a>). 
-На мой взгляд, Microsoft сдались и приняли реальность - SF сообщество, по сути, не адаптировало, с чем я нас с Вами и поздравляю. А вот Kubernetes стал по факту стандартом. 
+А по Kubernetes штук 20-30 во всех разрезах. Приведу только часть, которую рекомендовал посмотреть в своем проекте.
+<ul>
+	<li><a href="https://mybuild.techcommunity.microsoft.com/sessions/77059">Fundamentals of Kubernetes on Microsoft Azure and the road ahead (планы развития)</a> </li>
+	<li><a href="https://mybuild.techcommunity.microsoft.com/sessions/77799">Serverless Kubernetes, KEDA (event based auto-scaling), and Azure Functions(запуск Azure Functions на Kubernetes)</a></li>
+<li><a href="https://mybuild.techcommunity.microsoft.com/sessions/77061">Enterprise security in the era of containers and Kubernetes</a></li>
+</ul>
+<b>DevOps </b>
+<ul>
+	<li><a href="https://mybuild.techcommunity.microsoft.com/sessions/77569">YAML CI/CD and Kubernetes Deployments</a> </li>
+	<li><a href="https://mybuild.techcommunity.microsoft.com/sessions/77060"> End to end application development and DevOps on Azure Kubernetes Service</a></li>
+	<li><a href="https://mybuild.techcommunity.microsoft.com/sessions/77045">From Zero to DevOps Superhero: The Container Edition(хотя, если вы уже используете AKS и Azure DevOps, то вряд ли что-то новое услышите)</a></li>
+	<li><a href="https://mybuild.techcommunity.microsoft.com/sessions/77598">Developer collaboration prototypes for AKS with Dev Spaces</a></li>
+</ul>
+
+На мой взгляд, Microsoft сдались и приняли реальность - .net сообщвество, по сути, не приняло Service Fabric. <b>А вот Kubernetes стал по факту стандартом даже для .net мира, с чем я нас с Вами и поздравляю.</b>
 
 <h2>ServerLess всем и каждому. </h2>
 По-прежнему очень много говорится про ServerLess вычисления. Но если раньше под этот соус заворачивали только Azure Functions и Logic Apps, то сейчас зацепило даже Azure SQL Database ServerLess (когда увидел анонс, очень удивился т.к. уж что-что, а ServerLess SQL – это звучит интересно). 
@@ -56,27 +69,35 @@
 	<li><s>Потом появились виртуальные машины, но сейчас это не важно.</s></li>
 	<li>Затем, когда стало понятно, что даже теперь мало кто может полностью переехать в Cloud, надо все-таки делать Hybrid решения. В начале, под этим подразумевались VPN до Azure. Затем появился Azure Stack (программно-аппаратный комплекс, который по API похож на Azure и можно было на нем держать Production нагрузку, если регулятор не разрешает публиковаться в Public Cloud, а dev/test с анонимизированными данными держать в Public Cloud)</li>
 	<li>Потом стали модными и популярными всякие IoT решения (для Microsoft и других больших игроков… а телеметрию-то давно писали). Поначалу в сценарии Connected Factory (Завод/ сборочная линия), предлагали использовать решения из Azure Cloud, но индустрия-таки объяснила, что Latency между их заводом может быть сильно больше допустимого и останавливать сборочную линию из-за “моргнувшего” интернета – это не жизнеспособное решение. </li>
-	<li>В итоге, сначала появился Azure IoT Edge, который хоть и скачивался из Azure, но работал и обрабатывал данные на вашем железе (нужен был Docker совместимый хост, который хоть иногда в интернет подключался), но на нем поначалу был совсем скромный набор возможностей.</li>
+	<li>В итоге, сначала появился Azure IoT Edge, который хоть и скачивался из Azure, но работал и обрабатывал данные на вашем железе (нужен был Docker совместимый хост, который хоть иногда в интернет подключался), но на нем поначалу был совсем скромный набор возможностей. Хороший доклад на эту тему был <a href="https://mybuild.techcommunity.microsoft.com/sessions/77054">Azure IoT Edge & AI: Enabling the Intelligent Edge</a></li>
 	<li>Потом, когда IoT Edge показал себя полезным (для потребителей и для финансов Microsoft), стали как грибы появляться сервисы, которые раньше считались Cloud Only. Например, <a href="https://azure.microsoft.com/en-us/blog/a-deep-dive-into-what-s-new-with-azure-cognitive-services/">Cognitive Services</a> пришли на Edge. Визуальный контроль качества продукции на сборочной линии или транспортере делать из локального docker container сильно проще, чем собирать latency до Azure Data Center.</li>
-	<li>А вот на Build2019 многие из этих сервисов <a href="https://azure.microsoft.com/en-us/blog/a-deep-dive-into-what-s-new-with-azure-cognitive-services/">вышли в общий доступ или появилась в качестве preview</a> (мне больше всего из preview нравится Speech Services для синтезации речи. Его очень сильно не хватало на устройствах без постоянного интернета), а заодно был анонсирован <a href="https://azure.microsoft.com/en-us/services/sql-database-edge/">SQL Server он Edge</a>. Нет, SQL 2017 уже давно запускался на Linux в Docker, но требовал 3.5 GB памяти. Эта версия оптимизирована в том числе по памяти, для Edge устройств (на них памяти обычно мало).</li>
-	<li>Кроме того, начали показывать Hardware на базе Azure Sphere для Secured IoT решений.</li>
+	<li>А вот на Build2019 многие из этих сервисов <a href="https://azure.microsoft.com/en-us/blog/a-deep-dive-into-what-s-new-with-azure-cognitive-services/">вышли в общий доступ или появилась в качестве preview</a> (мне больше всего из preview нравится Speech Services для синтезации речи. Его очень сильно не хватало на устройствах без постоянного интернета). </li>
+<li>Заодно был показан-анонсирован <a href="https://azure.microsoft.com/en-us/services/sql-database-edge/">SQL Server он Edge</a> (<a href="https://mybuild.techcommunity.microsoft.com/sessions/76983">Simplify Edge Architecture with Azure SQL Database Edge</a>). 
+<img src="https://habrastorage.org/webt/u6/l7/ry/u6l7rywviftr_rfrzw_s8tkfhla.png" />
+Нет, SQL 2017 уже давно запускался на Linux в Docker, но требовал 3.5 GB памяти. Эта версия оптимизирована в том числе по памяти (500MB< и запускается на ARM процессорах), для Edge устройств (на них памяти обычно мало). А заодно там есть работа Built-In Time-Series Streaming and Analytics, что звучит очень интересно.</li>
+	<li>Кроме того, начали показывать Hardware на базе <a href="https://mybuild.techcommunity.microsoft.com/sessions/77056">Azure Sphere</a> для Secured IoT решений.</li>
 	<li>Показали <a href="https://docs.microsoft.com/en-us/azure/databox-online/data-box-edge-overview">Azure Edge compute</a> оборудование, что уже совсем не оставляет сомнений, что тема под пристальным контролем.
 <spoiler title="Правда ящик, для миграции данных в Azure мне понравился больше т.к. выглядит по солиднее.">
-<img src="https://habrastorage.org/webt/u4/wn/re/u4wnrerxvtzgqkbjzithscu6x_0.jpeg" />
+<img src="https://habrastorage.org/webt/bv/jo/ra/bvjoratfhxahev-opszujddo64g.jpeg" />
 </spoiler></li>
 </ul>
 
 <h3>Big Data, Machine Learning, Artificial Intelligence </h3>
-Я не самый большой специалист в этих областях, но и писать про них буду с позиции бывшего разработчика (хотя бывших разработчиков не бывает).
+В этих областя писать я буду с позиции бывшего разработчика (хотя бывших разработчиков не бывает), а не эксперта по данным.
 
 Очень часто встречал “интересную” позицию некоторых заказчиков, что IaaS надо делать в Aws, PaaS в Azure и Data в GCP. Нельзя не согласиться, что исторически каждый из провайдеров специализировался на чем-то, но сейчас, если смотреть по-крупному, во многих сервисах паритет достигнут (разница в нюансах, конечно, осталась). Интеграция решений между разными Cloud провайдерами – это, конечно, интересная работа и золотая жила, но как правило, крайне неэффективная для самого заказчика (за исходящий трафик всегда надо платить, а есть же еще latency и complexity/сложность решения).
 
-Наверное, самым перспективным направлением для Microsoft/Azure на ближайшее время с точки зрения новых денег является работа с данными – “привет” Spark/Hadoop/Kafka, Data lakes и еще много интересных сервисов,а заодно с горячи темами (кто-же не любит на хайпе делать продажи) типа Artificial intelligence (Опять нам показывают Кортану, опять нам показывают умные автомобили). Количество анонсов, а главное кейсов (иногда синтетических, а иногда даже показывают счастливого клиента) по использованию Big Data сервисов в Azure на конференции просто зашкаливало. Большинство этих технологий open source, они все community driven и существуют во всех 3 больших провайдеров. Пару лет назад такого активного подхода к Data сервисам я, признаться, не припомню.
+Наверное, самым перспективным направлением для Microsoft/Azure на ближайшее время с точки зрения новых денег является работа с данными – “привет” Spark/Hadoop/Kafka, Data lakes и еще много интересных сервисов,а заодно с горячи темами (кто-же не любит на хайпе делать продажи) типа Artificial intelligence (Опять нам показывают Кортану, опять нам показывают умные автомобили). Количество анонсов, а главное кейсов (иногда синтетических, а иногда даже показывают счастливого клиента) по использованию Big Data сервисов в Azure на конференции просто зашкаливало. Только по слову AI, находится 37 сессий (их всего 171 на весь Build2019, если вычисть 15 минутные каридорные доклады и сессии программирования для школьников.). Были даже долклады DevOps для Big Data, Windows AI platform и AI для PowerBI. Большинство этих технологий open source, они все community driven и существуют во всех 3 больших провайдеров. Пару лет назад такого активного подхода к Data сервисам я, признаться, не припомню.
 
 <h3><a href="https://mybuild.techcommunity.microsoft.com/sessions/77008">Windows Presentation Platform</a></h3> 
 Одна из сессий, которую я бы хотел отметить - это сессия про Windows Presentation Platform (WPP). Если быть честным, я по невнимательности считал, что это про Windows Presentation Foundations (WPF), но зато приятно удивился, что тема была шире, ожидаемой.
 Когда-то в далеком 2009 году, когда WPF только появился, была популярна тема: хостинг WinForms controls в WPF приложениях или наоборот - пытаться вставить WPF controls в WinForms. Это все было от того, что взять и махом переписать огромные куски приложения на новый framework было часто невозможно. В первых релизах такие особенности не рекламировали, но когда стало очевидно, что обратную совместимость надо тянуть, то начали очень активно пиарить.
-Так вот, в 2019 году обсуждается как хостить Unified Windows Controls в WPF (UWP islands), и как развязать UI components и операционную систему (т. е. поставлять controls/compiler/runtime в качестве nuget packages и не ждать Windows Update. Идея отличная, но делать надо было еще в самой первой версии UWP, т. к. к тому времени команда Entity Framework вынесла EF из состава .net Framework, чтобы перестать зависеть от Windows Updates.)
+
+Так вот, в 2019 году обсуждается как хостить U<b>WP контролы в WPF (XAML islands)</b>, и как <b>развязать UI components и операционную систему в WinUI  3.0 </b> (т. е. поставлять controls/compiler/runtime в качестве nuget packages и не ждать Windows Update.) <s>Идея отличная, но делать надо было еще в самой первой версии UWP, т. к. к тому времени команда Entity Framework уже несколько лет как, вынесла EF из состава .net Framework, чтобы перестать зависеть от Windows Updates. И то, что стало .Net Core было в разработке.</s>
+<img src="https://habrastorage.org/webt/ik/qs/kh/ikqskh3_hutxqls2uafhp71d4c4.png" />
+<b><spoiler title="И главное, что это будет доступно не только для самых свежих версий Windows 10, но и довольно старых, но еще актуальных.">
+<img src="https://habrastorage.org/webt/ko/1o/qk/ko1oqkpkl84uggxm-h4ek3uvkjg.png" />
+</spoiler></b>
 Для сессии был отведен большой зал, но свободных мест в зале хватало (Разработку под Windows уже лет 10 хоронят), но дело не в этом. Молодых лиц в зале было крайне мало (сравниваю с сессией по Asp.Net Core или тем более Machine Learning). Это лишь мои субъективные наблюдения, я не занимаюсь похоронами разработки под Windows.
 
 <h2>Microsoft Ecosystem для разработчиков</h2>
@@ -92,15 +113,15 @@
 <img src="https://habrastorage.org/webt/nd/5z/1a/nd5z1aq7ip3xb7poe4_cz8ibxbc.jpeg" />
 
 <h3>Анонсы</h3>
-Если честно, то лично меня анонсы (<a href="https://news.microsoft.com/2019/05/06/microsoft-introduces-new-cloud-experiences-and-developer-tools-for-all-creators-at-microsoft-build/">тут</a> и <a href="https://blogs.microsoft.com/blog/2019/05/06/10-cool-things-to-check-out-at-microsoft-build-2019/">тут</a>) этого года не впечатлили, и я особо их не запомнил. На квантовых компьютерах хорошо хайпиться, но не заметно, что это технология сегодняшнего дня. А больше ничего толком и не запомнилось. 
+Честно говоря, то лично меня анонсы (<a href="https://news.microsoft.com/2019/05/06/microsoft-introduces-new-cloud-experiences-and-developer-tools-for-all-creators-at-microsoft-build/">тут</a> и <a href="https://blogs.microsoft.com/blog/2019/05/06/10-cool-things-to-check-out-at-microsoft-build-2019/">тут</a>) этого года не задели за живое, и я особо их не запомнил. На квантовых компьютерах хорошо хайпиться, но не заметно, что это технология сегодняшнего дня. А больше ничего толком и не запомнилось. 
 <ul>
 	<li><s>Ну не о эксперементальной версии Edge(браузер от Microsoft) с движком Chromium же писать и <a href="https://github.com/microsoftedge/msedgeexplainers">доступности его исходных кодов</a>! (о нем <a href="https://blogs.windows.com/windowsexperience/2018/12/06/microsoft-edge-making-the-web-better-through-more-open-source-collaboration/">было известно сильно до Build2019</a>)</s></li>
 	<li><a href="https://cloudblogs.microsoft.com/opensource/2019/05/06/announcing-keda-kubernetes-event-driven-autoscaling-containers/">Kubernetes Event–driven Autoscaling (KEDA)</a> вроде не плох, но как-то wow эффекта у меня не вызвало. Хотя идея замечательная.</li>
 </ul>
 
 <h2>Послесловие</h2>
-<ul>
-	<li>Если честно, то я ожидал большего количества представителей не itшных индустрий, т.к. Microsoft давно заявляет, что стремится именно помочь бизнесу с проектами, а не itшникам. Да, конечно, были доклады с участием <a href="https://mybuild.techcommunity.microsoft.com/sessions/77137">Airbus</a>, <a href="https://mybuild.techcommunity.microsoft.com/sessions/77563">BMW</a>… но я ожидал большего количества.</li>
-	<li>Я не большой специалист по office365, поэтому решил даже не пробовать рассматривать эту тему.</li>
-	<li><b>Все вышесказанное - это мое личное мнение, сделанное на базе моих наблюдений и моего предыдущего опыта. На объективность не претендую. Обсудить можно любой тезис.</b></li>
-</ul>
+Если честно, то я ожидал большего количества представителей не itшных индустрий, т.к. Microsoft давно заявляет, что стремится именно помочь бизнесу с проектами, а не itшникам. Да, конечно, были доклады с участием <a href="https://mybuild.techcommunity.microsoft.com/sessions/77137">Airbus</a>, <a href="https://mybuild.techcommunity.microsoft.com/sessions/77563">BMW</a>… но я ожидал большего количества.
+
+Office365 не моя тематика, поэтому решил даже не рассматривать этот вопрос.
+
+<b>Все вышесказанное - это мое личное мнение, сделанное на базе моих наблюдений и моего предыдущего опыта. На объективность не претендую. Обсудить можно любой тезис.</b>
