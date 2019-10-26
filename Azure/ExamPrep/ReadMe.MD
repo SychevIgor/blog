@@ -3,52 +3,38 @@
 В статье я расскажу про 
 <ul>
 	<li><a href="https://docs.microsoft.com/en-us/learn/">Microsoft Learning</a></li>
-	<li><a href="https://www.pluralsight.com">Pluralsight (RoleIQ и курсы)</a></li>
-	<li><a href="https://openedx.microsoft.com">OpenEDX</a>/<a href="https://cloudsociety.fastlane.live/courses">CloudSociety.learning</a></li>
+	<li><a href="https://www.pluralsight.com">Pluralsight (RoleIQ и Paths)</a></li>
+	<li><a href="https://oxa.microsoft.com">OpenEDX</a></li>
 	<li><a href="https://docs.microsoft.com/en-us/azure/architecture/">Azure Architecture Center</a></li>
         <li>Рекомендованный мною путь изучения-сдачи экзаменов-сертификации</li>
+        <li><b>И некоторые другие ресурсы.</b></li>
 </ul>
-<b>И некоторые другие ресурсы.</b>
 <cut />
 <spoiler title="Предположения:">
 <ol>
 	<li>В статье я не буду касаться вопросов типа <b>«А зачем вообще сдавать?»</b></li>
 	<li>В статье будет <b>мое личное мнение</b> про подготовку к экзамену, оно может отличаться от вашего мнения или, тем более, мнения Microsoft.</li>
-	<li>В статье будут освещены<b> только англоязычные ресурсы</b>
-          <ul>
-	     <li>во-первых, русскоязычных просто нет. Личные блоги не дадут вам нужной картины.</li>
-	    <li>во-вторых, только англоязычные ресурсы являются источником правды (source of truth). В общении с поддержкой бесполезно ссылаться на русскоязычную версию, даже если кто-то из сотрудников Microsoft типа Cloud Solution Architect прислал ссылку на русскоязычную статью. </li>
-	    <li>в-третьих, в теории сдавать экзамен на русском можно, но что-то мне подсказывает, что эти версии сильно сложнее для понимания.</li>
-          </ul> 
-        </li>	
+	<li>В статье будут освещены<b> только англоязычные ресурсы</b></li>	
 	<li><b>Минимальный уровень знаний по Azure у вас есть</b>, т.к. сертифицироваться, не имея опыта - это очень плохая идея. Сертификат – это все-таки подтверждение квалификации </li>
   </ol>
 </spoiler>
-
 <h2><a href="https://docs.microsoft.com/en-us/learn/">Microsoft Learning</a></h2>
-Первым ресурсом, на который нужно обратить свое внимание, будет <a href="https://docs.microsoft.com/en-us/learn/">Microsoft Learning</a>. Этот ресурс, который можно использовать для изучения Azure с нуля, при этом выбрав свою роль (разработчик, архитектор, админ). 
+Первым ресурсом, на который нужно обратить свое внимание, будет <a href="https://docs.microsoft.com/en-us/learn/">Microsoft Learning</a>.<b>Это основной, рекомендованный Microsoft ресурс для изучения Azure.</b> Этот ресурс, который можно использовать для изучения Azure с нуля, при этом выбрав свою роль (разработчик, архитектор, админ, специалист по Data или AI<s>(в понимании Microsoft конечно)</s>). 
 Тут много относительно небольших кусочков, которые можно изучать по 30-60 минут в день в течение 1-3 месяцев, охватив при этом очень широкий пласт материала. 
 
 <img src="https://habrastorage.org/webt/sb/8q/zr/sb8qzr45v01dxqxqum73j-hu2ao.png" />
 
-Одним из самых важных моментов является то, что там много небольших лабораторных работ, которые помогают наработать мышечную память. На пример- возьмем все <a href="https://docs.microsoft.com/en-us/learn/browse/?roles=developer&products=azure">разделы по Azure, которые могут быть интересны для разработчиков</a>. Это 129 практических упражнений, а для архитекторов 80 курсов(на 6 мая 2019 года)
+Одним из самых важных моментов является то, что там много небольших лабораторных работ, которые помогают наработать мышечную память. На пример- возьмем все <a href="https://docs.microsoft.com/en-us/learn/browse/?roles=developer&products=azure">разделы по Azure, которые могут быть интересны для разработчиков</a>.
 
 Безусловно, про 1-3 месяца – это совсем с нуля. Если вы уже последние пару лет работаете с Azure, то этот ресурс стоит очень быстро просмотреть, найти пробелы в своих знаниях и перейти к подготовке к сдаче экзамена.
 
-<h2><a href="https://app.pluralsight.com/roleiq">Pluralsight RoleIQ</a></h2>
-Для начала, можно бесплатно пройти тестирование на знание Azure по 3 направлениям: архитектура, разработка, инфраструктура и на выходе получить некоторую оценку 0-300 своих знаний. Каждая роль состоит из нескольких тестирований 6-9, что позволяет комплексно посмотреть на свои знания. (Нужно создать учетную запись, карту привязывать не нужно, free trial начинать тоже не обязательно. Тесты доступны и без этого). Пример по архитектуре 
+<h2><a href="https://www.pluralsight.com/product/role-iq">Pluralsight RoleIQ</a></h2>
+Для начала, можно бесплатно пройти тестирование на знание Azure по 3 (из 8) направлениям: <a href="https://www.pluralsight.com/role-iq/microsoft-azure-solution-architect">архитектура</a>, <a href="https://www.pluralsight.com/role-iq/microsoft-azure-developer">разработка</a>, <a href="https://www.pluralsight.com/role-iq/microsoft-azure-administrator">инфраструктура</a>, <a href="https://www.pluralsight.com/role-iq/microsoft-azure-ai-engineer">AI инженер</a>, <a href="https://www.pluralsight.com/role-iq/microsoft-azure-data-engineer">Data инженер</a>, <a href="https://www.pluralsight.com/role-iq/microsoft-azure-devops-engineer">DevOps инженер</a>, <a href="https://www.pluralsight.com/role-iq/microsoft-azure-security-engineer">Security инженер</a>, <a href="https://www.pluralsight.com/role-iq/microsoft-azure-data-scientist">Data scientist</a>  и на выходе получить некоторую оценку 0-300 своих знаний. Каждая роль состоит из нескольких тестирований 6-9, что позволяет комплексно посмотреть на свои знания. (Нужно создать учетную запись, карту привязывать не нужно, free trial начинать тоже не обязательно. Тесты доступны и без этого). Пример по архитектуре 
 
 <img src="https://habrastorage.org/webt/dq/0o/c3/dq0oc3ubkk7ppqnelwjf6-xb9nq.png" />
 
 На мой взгляд, это хороший <b>качественные </b>тесты (<b>есть качественный, а есть количественные метод, который даст значение</b>), чтобы оценить свои знания. 
 
-<spoiler title="Численные оценки для меня мало что значили, т.к. с формулировкой многих вопросов я был не согласен, как и с ответами. ">
-<ul>
-	<li>Самыми простыми примерами можно считать вопросы типа: "На каком blade вы можете найти данные метрик" и дальше 4 варианта выбора. С учетом того, что портал быстро меняется, и названия вкладок я лично не запоминаю, этот вопрос с точки зрения тестирования не корректен.</li>
-	<li>Или задание: "выберите правильный метод, чтобы удалить сообщение из очереди". Здравый смысл меня в нем подвел, т.к. я выбрал <b>queue.Dequeue</b> вместо правильного <b>queue.DequeueMessage</b>. На мой взгляд, такие вопросы очень странные, ведь это всегда подскажет Auto-complete в любой IDE. </li>
-	<li>Ну или вопрос: "Назовите наиболее используемые состояния подключения к ресурсу, в паттерне <a href="https://docs.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker">circuit-breaker</a> в популярной имплементации". Как бы сказать: "часто используемые и популярные имплементации" - это прям «точный» вопрос. Осталось померить популярность и частоту использования состояний.</li>
-</ul>
-</spoiler>
 На каждый вопрос дается <b>ограничение по времени</b>, в зависимости от длины текста вопроса + всех вариантов ответов. Но если вы хотите хакнуть систему, то будет тяжело, т.к. времени дается не много. 
 
 При всем этом <b>оценка нелинейная</b>, т.е. сдал 17 из 20 вопросов - получишь 255 из 300. Зависит это от сложности заданий и в какой момент ты ошибся. Лично мне такая система немного не понятна (получается, если ты ошибся в начале - это плохо, а если ближе к концу - менее страшно), но <b>качественный результат дает.</b>
@@ -58,93 +44,70 @@
 <s>Кстати, можно потешить свое самолюбие, т.к. в конце каждого теста дают не только оценку, но и процент людей, который сдал лучше тебя. Приятно бывает видеть, что лучше тебя сдало 1-3%.</s>
  
 Я вижу этот тест, как способ разделить массу желающих обучаться на несколько групп по их исходным навыкам. 
-
-<ul>
-	<li>Если человек сдал в среднем на 200-250, то ему делать нечего на обучении. </li>
-	<li>Если на 100 - ему явно в группу начинающих.</li>
-</ul>
 После прохождения теста Вам порекомендуют курсы, которые закрывают пробелы в знаниях, но эти курсы уже за деньги.
 
-<h2><b><a href="https://openedx.microsoft.com/">OpenEDX</a>/<a href="https://cloudsociety.fastlane.live/courses">CloudSociety.learning</a></b></h2>
+<h2><b><a href="https://oxa.microsoft.com/">OpenEDX</a></b></h2>
+<spoiler title="Есть много похожих ресурсов с одинаковым контентом. Потому, что">
+Microsoft распространяет этот контент через своих Education partners, а те, в свою очередь, делают из контента продукт. По этому, контент можно найти на десятке разных порталов. Но мне в EPAM его не дали, т.к. мы не Education Partner.
+</spoiler>
 <b>Тут есть курсы для каждого раздела, перечисленного в описании экзамена. Это такая выжимка, brain dump, который надо обязательно знать для сдачи экзаменов. </b>
 
-Вы записываетесь на курс (enroll), читаете контент, делаете небольшие тестовые задания самостоятельно и в конце сдаете небольшой тест. Я не готов гарантировать, что, выучив текст всех модулей, Вы сдадите экзамен, но если Вы уже знаете Azure, то этот ресурс очень помогает сократить время подготовки.
+Вы записываетесь на курс (enroll), читаете контент, делаете небольшие тестовые задания самостоятельно и в конце сдаете небольшой тест. Я не готов гарантировать, что, выучив текст всех модулей, Вы сдадите экзамен, но если Вы уже знаете Azure, то этот ресурс очень помогает сократить время подготовки. Кроме того, на OpenEdx генерируется "сертификат". Выглядит сертификат солидно, с подписью самого-самого, правда непонятно насколько эти сертификаты имеют ценность.<img src="https://habrastorage.org/webt/pa/mu/tz/pamutz3cxprw-vhuxslcnn87ri8.png" />
 
-На мой субъективный взгляд, курсы с OpenEDX/CloudSociety максимально близки к тому, что спрашивают в экзаменах серии AZ и при этому бесплатные. 
+На мой субъективный взгляд, курсы с OpenEDX максимально близки к тому, что спрашивают в экзаменах серии AZ и при этому бесплатные. 
 
 Приведу здесь список курсов для подготовки к экзаменам. (Чтобы попасть на openedx версию, просто замените в URL “cloudsociety.learning” на “openedx” или наоборот).
 <b>У тренингов выходят обновления, по этому рекомендую ссылки перепроверять самостоятельно перед началом обучения т.к. на момент первой публикации актуальной версией была 2018_T3, а на момент редактирования уже 2019_T2</b>
 
-<a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-103.1+2019_T2/course/">AZ-103/Microsoft Azure Administrator</a>
-<spoiler title="Есть еще старые курсы az-100/az-101, но они уже не должны обновляться и актуализироваться">
-<ol>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-100.1+2019_T1/info">Manage Subscriptions and Resources</a>  </li>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-100.2+2019_T1/info">Implementing and Managing Storage</a>  </li>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-100.3+2019_T1/info">Deploying and Managing Virtual Machines</a>  </li>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-100.4+2019_T1/info">Configuring and Managing Virtual Networks</a>  </li>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-100.5+2019_T1/info">Managing Identities</a>  </li>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-101.3+2019_T1/info">Implement Advanced Virtual Networking</a></li>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-101.4+2019_T1/info">Securing Identities</a></li>
-</ol>
-</spoiler>
+<ul>
+	<li><a href="https://oxa.microsoft.com/courses/course-v1:Microsoft+AZ-103.1+2019_T2/course/">AZ-103 (Microsoft Azure Administrator)</a></li>
+	<li><a href="https://oxa.microsoft.com/courses/course-v1:Microsoft+AZ-500.0+2019_T2/about">AZ-500 (Microsoft Azure Security Technologies)</a></li>
+	<li><a href="https://oxa.microsoft.com/courses/course-v1:Microsoft+AZ-900+2019_T2/about">AZ-900 (Microsoft Azure Fundamentals)</a></li>
+	<li><a href="https://oxa.microsoft.com/courses/course-v1:Microsoft+DP-200.1+2019_T1/about">DP-200 (Implementing an Azure Data Solution)</a></li>
+</ul>
 <spoiler title="AZ-203">
 <ul>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-203.1+2019_T2/course/">Develop Azure Infrastructure as a Service compute solutions</a></li>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-203.2+2019_T2/course/">Develop Azure Platform as a Service compute solutions</a></li>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-203.3+2019_T2/course/">Develop for Azure storage</a></li>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-203.4+2019_T2/course/">Implement Azure Security</a></li>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-203.5+2019_T2/course/">Monitor, troubleshoot, and optimize Azure solutions</a></li>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-203.6+2019_T2/course/">Connect to and consume Azure, and third-party, services</a></li>
+	<li><a href="https://oxa.microsoft.com/courses/course-v1:Microsoft+AZ-203.1+2019_T2/course/">Develop Azure Infrastructure as a Service compute solutions</a></li>
+	<li><a href="https://oxa.microsoft.com/courses/course-v1:Microsoft+AZ-203.2+2019_T2/course/">Develop Azure Platform as a Service compute solutions</a></li>
+	<li><a href="https://oxa.microsoft.com/courses/course-v1:Microsoft+AZ-203.3+2019_T2/course/">Develop for Azure storage</a></li>
+	<li><a href="https://oxa.microsoft.com/courses/course-v1:Microsoft+AZ-203.4+2019_T2/course/">Implement Azure Security</a></li>
+	<li><a href="https://oxa.microsoft.com/courses/course-v1:Microsoft+AZ-203.5+2019_T2/course/">Monitor, troubleshoot, and optimize Azure solutions</a></li>
+	<li><a href="https://oxa.microsoft.com/courses/course-v1:Microsoft+AZ-203.6+2019_T2/course/">Connect to and consume Azure, and third-party, services</a></li>
 </ul>
 </spoiler>
 <spoiler title="AZ-300">
 <ol>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-300.1+2019_T2/info">Deploying and Configuring Infrastructure</a>  </li>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-300.2+2019_T2/info">Implementing Workloads and Security</a>  </li>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-300.3+2019_T2/info">Understanding Cloud Architect Technology Solutions</a> </li>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-300.4+2019_T2/info">Creating and Deploying Apps</a>  </li>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-300.5+2019_T1/info">Implementing Authentication and Secure Data</a>  </li>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-300.6+2019_T2/info">Developing for the Cloud</a></li>
+	<li><a href="https://oxa.microsoft.com/courses/course-v1:Microsoft+AZ-300.1+2019_T2/info">Deploying and Configuring Infrastructure</a>  </li>
+	<li><a href="https://oxa.microsoft.com/courses/course-v1:Microsoft+AZ-300.2+2019_T2/info">Implementing Workloads and Security</a>  </li>
+	<li><a href="https://oxa.microsoft.com/courses/course-v1:Microsoft+AZ-300.3+2019_T2/info">Understanding Cloud Architect Technology Solutions</a> </li>
+	<li><a href="https://oxa.microsoft.com/courses/course-v1:Microsoft+AZ-300.4+2019_T2/info">Creating and Deploying Apps</a>  </li>
+	<li><a href="https://oxa.microsoft.com/courses/course-v1:Microsoft+AZ-300.6+2019_T2/info">Developing for the Cloud</a></li>
 </ol>
 </spoiler>
 <spoiler title="AZ-301">
 <ol>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-301.1+2019_T2/info">Designing for Identity and Security</a>  </li>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-301.2+2019_T2/info">Designing a Data Platform Solution</a>  </li>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-301.3+2019_T2/info">Designing for Deployment, Migration, and Integration</a>  </li>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-301.4+2019_T2/info">Designing an Infrastructure Strategy </a></li>
+	<li><a href="https://oxa.microsoft.com/courses/course-v1:Microsoft+AZ-301.1+2019_T2/info">Designing for Identity and Security</a>  </li>
+	<li><a href="https://oxa.microsoft.com/courses/course-v1:Microsoft+AZ-301.2+2019_T2/info">Designing a Data Platform Solution</a>  </li>
+	<li><a href="https://oxa.microsoft.com/courses/course-v1:Microsoft+AZ-301.3+2019_T2/info">Designing for Deployment, Migration, and Integration</a>  </li>
+	<li><a href="https://oxa.microsoft.com/courses/course-v1:Microsoft+AZ-301.4+2019_T2/info">Designing an Infrastructure Strategy </a></li>
 </ol>
 </spoiler>
 <spoiler title="AZ-400">
 <ol>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-400.1+2019_T1/about">Implementing DevOps Development Processes</a></li>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-400.2+2019_T1/about">Implementing Continuous Integration</a></li>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-400.3+2019_T1/about">Implementing Continuous Delivery</a></li>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-400.4+2019_T1/about">Implementing Dependency Management</a></li>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-400.5+2019_T1/about">Implementing Application Infrastructure</a></li>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-400.6+2019_T1/about">Implementing Continuous Feedback</a></li>
-	<li><a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-400.7+2019_T1/about">Designing a DevOps Strategy</a></li>
+	<li><a href="https://oxa.microsoft.com/courses/course-v1:Microsoft+AZ-400.1+2019_T1/about">Implementing DevOps Development Processes</a></li>
+	<li><a href="https://oxa.microsoft.com/courses/course-v1:Microsoft+AZ-400.2+2019_T1/about">Implementing Continuous Integration</a></li>
+	<li><a href="https://oxa.microsoft.com/courses/course-v1:Microsoft+AZ-400.3+2019_T1/about">Implementing Continuous Delivery</a></li>
+	<li><a href="https://oxa.microsoft.com/courses/course-v1:Microsoft+AZ-400.4+2019_T1/about">Implementing Dependency Management</a></li>
+	<li><a href="https://oxa.microsoft.com/courses/course-v1:Microsoft+AZ-400.5+2019_T1/about">Implementing Application Infrastructure</a></li>
+	<li><a href="https://oxa.microsoft.com/courses/course-v1:Microsoft+AZ-400.6+2019_T1/about">Implementing Continuous Feedback</a></li>
+	<li><a href="https://oxa.microsoft.com/courses/course-v1:Microsoft+AZ-400.7+2019_T1/about">Designing a DevOps Strategy</a></li>
 </ol>
 </spoiler>
-<a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-500.0+2019_T2/about">AZ-500 (Microsoft Azure Security Technologies)</a>
 
-<a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+AZ-900+2019_T2/about">AZ-900 (Microsoft Azure Fundamentals)</a>
-
-<a href="https://openedx.microsoft.com/courses/course-v1:Microsoft+DP-200.1+2019_T1/about">DP-200 (Implementing an Azure Data Solution)</a>
-
-<spoiler title="Зачем Microsoft 2 площадки на одном движке мне решительно не понятно">
-Ведь почти все курсы на 2 ресурсах одновременно. И контент одинаковый, и вопросы-ответы и даже порядок следования вопросов. Найдите отличия! 
-
-<img src="https://habrastorage.org/webt/dz/m7/0b/dzm70b8tzs2oywh1t-aoz-1ivk4.png" />
-
-Я ожидал, судя по тому, что <a href="https://blogs.msdn.microsoft.com/wriju/2018/12/20/free-trainings-for-azure-certifications-az/">статья</a> про CloudSociety Learning появилась 20 декабря, то, предположительно, развивать будут CloudSociety, а не openedx. Но сейчас  в январе 2019 почему-то ссылки на cloud society на домене microsoft.com стали перенаправляться на внешний домен. При этом в Microsoft, <b>менеджер, отвественный за обучение partners</b>, мне не смог ответить, а сам <b>дает ссылки на OpenEDX</b>.
-
-<ul>
-	<li>Я нашел у openedx всего один плюс: Microsoft генерирует сертификаты о прохождении курсов бесплатно. На edx нужно заплатить 99$ за каждый, а на CloudSociety вообще сертификатов нет (по состоянию на 5 января). <img src="https://habrastorage.org/webt/pa/mu/tz/pamutz3cxprw-vhuxslcnn87ri8.png" />Выглядит сертификат солидно, с подписью самого-самого, правда непонятно насколько эти сертификаты имеют ценность.</li>
-	<li>Хотя есть и минус: на openedx курсов не видно в поиске - на них можно попасть только по прямым ссылкам. Возможно, это означает, что этот ресурс уже не целевой, но тогда возникает вопрос: «а зачем нужно было заводить новый ресурс на том же движке, заливать туда контент и рекламировать его в блоге?» Если кто-то знает ответ, то поделитесь этой тайной.</li>
-</ul> 
+<spoiler title="Хотя есть и минусы у OpenEdx, оснвной из которых - практических работ с azure portal там нет ">
+На openedx курсов не видно в поиске - на них можно попасть только по прямым ссылкам. Но это лучше, чем у EDX т.к. на EDX- даже тест бесплатно пройти нельзя. На edx нужно заплатить 99$ за каждый.<img src="https://habrastorage.org/webt/u8/tn/qr/u8tnqrvj21sjjoay0c_ocfip1m8.png" />
+А прогресс по курсу буквально через месяц будет удален, если курс не оплачен, даже если курс длится 3 месяца. 
 </spoiler>
-Но есть и недостаток OpenEDX/CloudSociety - <b>Нет настоящих лабораторных работ </b>(ссылка на инструкцию в официальной документации - это несерьезно).
 
 <h2><a href="https://github.com/MicrosoftLearning">MicrosoftLearning лабы на github</a></h2>
 К официальным курсам для Microsoft Certified Trainers прилагается серия лабораторных работ на github. Их можно использовать и без самого курса.
@@ -159,28 +122,28 @@
 	<li><a href="https://github.com/MicrosoftLearning/DP-201-Designing-an-Azure-Data-Solution">DP-201</a></li>
 </ul>
 
-
 <h2>Pluralsight курсы</h2>
-В 2019 появились пути (path) по подготовке непосредственно к экзаменам серии AZ.
+В 2019 появились пути (path) по подготовке непосредственно к экзаменам серии AZ/DP.
+Path- это набор курсов, выстроенных в последовательность.
+Часть курсов появились раньше, чем сами экзамены- но к счастью, некоторые базовые вещи в Azure давно не меняются.
 <ul>
 	<li><a href="https://www.pluralsight.com/paths/microsoft-azure-administrator-az-103">AZ-103</a></li>
 	<li><a href="https://www.pluralsight.com/paths/developing-solutions-for-microsoft-azure-az-203">AZ-203</a></li>
 	<li><a href="https://www.pluralsight.com/paths/microsoft-azure-architect-technologies-az-300">AZ-300</a></li>
 	<li><a href="https://www.pluralsight.com/paths/microsoft-azure-architect-design-az-301">AZ-301</a></li>
+<li><a href="https://app.pluralsight.com/paths/certificate/azure-data-solution-dp-201">DP-201</a></li>
 </ul>
-В чем path отличается от курса по подготовке? Судя по датам (часть курсов сделаны в августе, еще до анонса новых экзаменов)<b>, контент был изначально сделан не под эти экзамены, а лишь после объявления новых испытаний из курсов были сформированы пути, покрывающие темы из экзамена. </b>
-
-К сожалению, ничего не могу сказать про релевантность этих курсов самим экзаменам. Они вышли недавно, объем контента там огромный, а у меня еще и подписки платной сейчас нет. 
-
-Но еще раз повторюсь: выглядит очень близко к тому, что описано на страницах с экзаменами.
 
 <h2>Linuxacademy курсы</h2>
 Курсы на этом ресурсе появились позже, чем на остальных, но тоже можно их рассмотреть
 <ul>
-	<li><a href="https://linuxacademy.com/azure/training/course/name/microsoft-azure-infrastructure-and-deployment-exam-az-100">AZ-100 admins</a>(сам AZ-100 уже устарел, но этот курс покрывает большую нового экзамена AZ-103)</li>
-	<li><a href="https://linuxacademy.com/azure/training/course/name/microsoft-certified-azure-developer-exam-203-prep">AZ-203 dev</a></li>
-	<li><a href="https://linuxacademy.com/azure/training/course/name/az-300-exam-preparation-microsoft-azure-architect-technologies">az-300 arch</a></li>
-<li><a href="https://linuxacademy.com/azure/training/course/name/microsoft-azure-fundamentals-az-900-exam-prep">AZ-900</a></li>
+	<li><a href="https://linuxacademy.com/course/exam-az-103-microsoft-azure-administrator/">AZ-103 infra</a></li>
+	<li><a href="https://linuxacademy.com/course/microsoft-certified-azure-developer-exam-203-prep/">AZ-203 dev</a></li>
+	<li><a href="https://linuxacademy.com/course/az-300-exam-preparation-microsoft-azure-architect-technologies/">az-300 arch implementation</a></li>
+	<li><a href="https://linuxacademy.com/course/microsoft-azure-architect-design-exam-az-301/">az-301 arch design </a></li>
+        <li><a href="https://linuxacademy.com/course/az-500-microsoft-azure-security-technologies/">az-500 decurity</a></li>
+        <li><a href="https://linuxacademy.com/course/microsoft-azure-fundamentals-az-900-exam-prep/">AZ-900</a></li>
+        <li><a href="https://linuxacademy.com/course/implementing-an-azure-data-solution-dp-200/">DP-200</a></li>
 </ul>
 
 <h2><a href="https://github.com/Microsoft/MCW">Microsoft Cloud Workshop Project</a></h2>
@@ -217,73 +180,6 @@ Microsoft опубликовала на github серию Cloud Workshops, в к
 	<li>Ну и много чего еще интересного.</li>
 </ul>
 Этот ресурс будет <b>полезно почитать</b> не только тем, кто собирается быть облачным <b>архитектором</b>, но и <b>разработчикам</b>, т.к. это им эти шаблоны реализовывать, а заодно и <b>itpro </b>некоторые вещи будут интересными, как например, <a href="https://docs.microsoft.com/en-us/azure/architecture/cloud-adoption/business-strategy/cloud-migration-business-case#dispelling-cloud-migration-myths">мифы про миграцию в Cloud</a>.
-
-<h2>Курсы для Microsoft Partners</h2>
-Microsoft для своих Partners делает study groups. Это серия видео курсов, по часу на модуль (для az-203 их 6 штук), и набор ссылок к ним. Можно саму зарегистрироваться и посмотреть (в записи), если вы знаете свой MCP ID и MS Partner ID (MPID)
-<ul>
-<li><a href="https://msuspartner.eventbuilder.com/?landingpageid=3RUCnG">AZ-203</a></li>
-</ul>
-<s>Наверное есть еще, но я не искал для других курсов.</s>
-
-И еще одна серия от менеджера из Microsoft, который отвечает за обучение партнеров
-<ul>
-	<li><a href="https://github.com/JazzyWagdaddy/AzureStudyGroups-AZ-203">AZ-203</a></li>
-	<li><a href="https://github.com/JazzyWagdaddy/AzureStudyGroups-AZ-301">AZ-301</a></li></ul>
-
-<h2><a href="https://www.edx.org/">EDX</a></h2>
-<b><a href="https://www.edx.org/">EDX</a></b>- всем известная платформа: на ней очень много различных курсов от ведущих университетов. Там собраны, в том числе, и курсы от <a href="https://www.edx.org/course?search_query=azure">Microsoft по Azure</a> 
-Чем глобально отличается <b>EDX </b>от Cloud Society понятно - это <b>внешняя относительно Microsoft площадка</b>, и присутствие на ней для Microsoft обязательно, т.к. это и демонстрация флага (много других хороших курсов, и мы должны быть там), и “торговля на красных линиях” (может кто-то будет, проходя мимо, и наши курсы изучать, даже если не очень-то и хотелось). 
-
-<spoiler title="Но с этой площадкой в декабре 2018 году наступила проблема, которая поделила EDX на ноль, лично для меня">
-Все практические тесты стали платными, т.е. за 99$. 
-
-<img src="https://habrastorage.org/webt/u8/tn/qr/u8tnqrvj21sjjoay0c_ocfip1m8.png" />
-
-А прогресс по курсу буквально через месяц будет удален, если курс не оплачен, даже если курс длится 3 месяца. 
-
-<img src="https://habrastorage.org/webt/tm/c1/bw/tmc1bwd_hclbalkxsk7japhybpi.png" />
-
-Я понимаю, что <a href="https://blog.edx.org/updates-platform-achieving-long-term-sustainability?track=blog">компании нужны деньги</a>, но без тестов подготовка к Azure экзаменам имеет мало смысла, а с ними – это минимум в пару тысяч долларов влетит. И если верить <a href="https://blog.edx.org/updates-platform-achieving-long-term-sustainability?track=blog">анонсированному еще весной 2018 подходу</a>, вряд ли тесты сделают снова бесплатными. Я, естественно, блог EDX не читаю, поэтому об изменениях я узнал сначала через вот такое сообщение на портале, которое меня сильно удивило.  
-
-Стало как-то неприятно, но зато понятно, почему Microsoft нужен собственный ресурс. На мой взгляд, <b>Microsoft не может полагаться в столь важном процессе, как обучение, на добрую волю внешней компании</b>, на которую они никак не влияют. Поэтому нужен собственный ресурс, который, если что, ее заменит и которому не нужно будет зарабатывать деньги. Но это лишь мое мнение.
-</spoiler>
-<h2><b><a href="https://academy.microsoft.com/en-us/professional-program/">Microsoft Professional Program</a></b></h2>
-Есть такая программа <a href="https://academy.microsoft.com/en-us/professional-program/">MPP </a>(которая приходит на смену Microsoft Virtual Academy и многим другим ресурсам для обучения), в рамках которой вы можете пройти трек, в который входят несколько курсов 9-12 на edx, и получить один общий сертификат, что этот трек вы окончили (сдали зачеты, лабы и т.п.)
-
-<spoiler title="Все курсы из MPP хостятся на платформе EDX, в связи с чем в 2019 году появилась проблема: ">
-Пройти тесты к курсам можно только за деньги, без них на MPP сайте курс не будет отмечен как завершенный. В итоге, общий сертификат MPP можно получить, только заплатив за каждый курс по 99$. Я надеюсь, что Microsoft сможет перенести информацию о прохождении по курсам с EDX на свою платформу Cloud Society без потери прогресса, иначе это дискредитирует MPP программу. 
-</spoiler>
-В контексте сдачи экзаменов по Azure для нас интересен трек <a href="https://academy.microsoft.com/en-us/professional-program/tracks/cloud-administration/">Cloud Administration track</a> в первую очередь, 
-<spoiler title="т.к. в него входят следующие курсы:">
-<ul>
-	<li>Microsoft Professional Orientation: Cloud Administration</li>
-	<li>Microsoft Azure Virtual Machines</li>
-	<li>Microsoft Azure Virtual Networks</li>
-	<li>Microsoft Azure Identity</li>
-	<li>Microsoft Azure Storage</li>
-	<li>Microsoft Azure App Service</li>
-	<li>Databases in Azure</li>
-	<li>Azure Security and Compliance</li>
-	<li>Automating Azure Workloads</li>
-	<li>Migrating Workloads to Azure</li>
-</ul>
-<b>Эти же курсы можно найти и на Cloud Society. </b>Курсы из этой программы не соотносятся с экзаменами по Azure, потому что они сильно проще, но можно начать изучать Azure и готовиться к экзамену AZ-103 именно с нее. 
-</spoiler>
-<b>Кроме тестов есть еще и лабораторные работы в реальном облаке. Настоятельно рекомендую их сделать, если есть время, т.к. в экзаменах серии AZ тоже есть лабораторные работы, в которых нужно что-то опубликовать, что-то починить в реальном облаке. Практический опыт бесценен при сдаче az-103</b>.
-
-Я бы использовал эту программу как минимальный допуск к работе с Azure в компании. Осилил - получи доступ, не осилил - извините, но нужны дополнительные испытания. Курс несложный, я бы даже сказал, подойдет для студентов второго курса (которые уже научились сами материал изучать, как в старшей школе, а не как в средней - преподаватель все темы расскажет, главное - прилежно посещать).
-
-<b><a href="https://academy.microsoft.com/en-us/professional-program/tracks/internet-of-things/">Azure IoT</a> я бы очень рекомендовал, как трек для подготовки к архитектурному экзамену.</b> 
-<spoiler title="Хоть этот трек слабее, чем курсы по Big Data, но в нем все равно есть 4 курса, которые стоит посмотреть:">
-<ul>
-	<li>Getting Started with the Internet of Things (IoT)</li>
-	<li>IoT Data Analytics and Storage</li>
-	<li>IoT Architecture Design and Business Planning</li>
-	<li>Business Intelligence for IoT Solutions</li>
-	<li>Они покрывают как Azure Iot Reference Architecture, пример - RFP (request for proposal) для IoT решения, так и обзоры сервисов типа PowerBi, Time Series, Hot/Cold storage, Event/IoT hubs. </li>
-</ul>
-</spoiler>
-Можно еще по изучать треки <a href="https://academy.microsoft.com/en-us/professional-program/tracks/devops/">DevOps </a>, <a href="https://academy.microsoft.com/en-us/professional-program/tracks/big-data/">Big Data</a>, но это уже вне заявленной темы.
 
 <h2><a href="https://docs.microsoft.com/en-us/azure/">Официальная документация</a></h2>
 Это <b>отличное место для изучения</b>, т.к. только оно является официальным источником правды.
@@ -325,30 +221,33 @@ Microsoft любит публиковать маркетинговые мате�
 <h4><a href="https://iotschool.microsoft.com/en-us/iot/learning-paths">Azure IoT school</a></h4>
 Для Архитектурного экзамена, можно попробовать сделать практические задания из Azure IoT School. Разработчика на экзамене это не спрашивают, но архитекторов спрашивают.
 
-<h4>Lynda</h4>
-На этом ресурсе в марте 2019 появился курс по <a href="https://www.lynda.com/Azure-tutorials/Exam-Prep-Microsoft-Azure-Infrastructure-Deployment-AZ-100/5005068-2.html">AZ-100</a>, а уже через пару недель экзамен был отмечен, как - "устаревает с мая 2019". Но по архитектуре или разработке ничего специализированного не было.
+<h4>Linkedin Learning</h4>
+Linkedin - это бывший Lynda. Тут доступно не так много курсов по подготовке непосредственно к экзаменам, хотя есть много курсов к экзаменам не привязанных.
+<ul>
+	<li><a href="https://www.linkedin.com/learning/exam-prep-microsoft-azure-fundamentals-az-900/azure-certification-for-advancement">AZ-900</a></li>
+<li><a href="https://www.linkedin.com/learning/exam-tips-microsoft-azure-administrator-az-103/azure-certification-for-advancement">AZ-103</a></li>
+</ul>
 
 <h2>Рекомендованный мною путь изучения-сдачи экзаменов-сертификации</h2>
 Если Вы <b>менеджер проекта</b>, где используется Azure, я бы рекомендовал следующий набор ресурсов и шагов по изучению:
 <ol>
-       <li>OpenEdx/Cloud Society - AZ-900 подготовительные материалы</li>
+       <li>OpenEdx - AZ-900 подготовительные материалы</li>
 	<li>Скорее всего, Вам придется еще много чего погуглить.</li>
 	<li>Экзамен AZ-900 (экзамен, подтверждающий, что вы знаете все ключевые понятия по Azure)</li>
 </ol>
 
 Если Вы <b>ITPro</b>
 <ol>
-	<li>OpenEdx/Курсы на Cloud Society входящие в Microsoft Professional Program -> Cloud Administration track (Общий обзор базовых сервисов. Лабораторные работы можно не сдавать, но почитать контент будет правильным)</li>
-	<li>OpenEdx/Cloud Society - AZ-103 подготовительные материалы</li>
+	<li>OpenEdx - Общий обзор базовых сервисов. Лабораторные работы можно не сдавать, но почитать контент будет правильным</li>
+	<li>OpenEdx- AZ-103 подготовительные материалы</li>
 	<li>На RoleIQ Pluralsight -> RoleIQ -> Microsoft Azure Administrator (попроходить тесты, чтобы убедиться в своих навыках)</li>
 	<li>Экзамен AZ-900 (экзамен, подтверждающий, что вы знаете все ключевые понятия по Azure)</li>
 	<li>Экзамен AZ-103</i></li>
 </ol>
 Если Вы <b>разработчик </b>(и знаете .net/C#)
-
 <ol>
-	<li>Курсы на OpenEdx/Cloud Society, входящие в Microsoft Professional Program -> Cloud Administration track (Общий обзор базовых сервисов нужен разработчикам, т.к. не все проекты можно на чистом PAAS сделать, а разбираться в базовых инфраструктурных сервисах все равно нужно, потому что те же AKS базируются, в конце концов, на VMs, подключенных к Vnets с Load Balanced, Public IP, Network Security Groups и т.п.)</li>
-	<li>OpenEdx/Cloud Society  - AZ-203 подготовительные материалы</li>
+	<li>Курсы на OpenEdx - Общий обзор базовых сервисов нужен разработчикам, т.к. не все проекты можно на чистом PAAS сделать, а разбираться в базовых инфраструктурных сервисах все равно нужно, потому что те же AKS базируются, в конце концов, на VMs, подключенных к Vnets с Load Balanced, Public IP, Network Security Groups и т.п.</li>
+	<li>OpenEdx - AZ-203 подготовительные материалы</li>
 	<li>На RoleIQ Pluralsight -> RoleIQ -> RoleIQ Pluralsight -> RoleIQ -> Microsoft Azure Developer (тесты попроходить, чтобы в своих навыках убедиться)</li>
 	<li><i>AZ-900 Не обязателен, но полезен (экзамен, подтверждающий, что вы знаете все ключевые понятия по Azure.</i>)</li>
 	<li>Экзамен AZ-203</li>
@@ -357,11 +256,10 @@ Microsoft любит публиковать маркетинговые мате�
  
 Если вы <b>Architect </b>(Solution или любого другого типа). Этот путь будет самым долгим, но "Царских путей к геометрии нет".
 <ol>
-	<li>Курсы на Cloud Society входящие в Microsoft Professional Program -> Cloud Administration track (Общий обзор базовых сервисов. Лабораторные работы можно не сдавать, но контент почитать будет правильным)</li>э
-<li>Курсы на OpenEdx/Cloud Society входящие в Microsoft Professional Program -> IoT track</li>
-	<li>OpenEdx/Cloud Society - AZ-300/AZ-301 подготовительные материалы
-<ul><li><i>OpenEdx/Cloud Society - AZ-103 подготовительные материалы (Не обязательные, но очень полезные, т.к. можно на те же сервисы глянуть под другим углом)</i></li>
-	<li><i>OpenEdx/Cloud Society - AZ-203 подготовительные материалы (Не обязательные, но очень полезные, т.к. можно на те же сервисы глянуть под другим углом)</i></li>
+	<li>OpenEdx - Общий обзор базовых сервисов. Лабораторные работы можно не сдавать, но почитать контент будет правильным</li>
+	<li>OpenEdx - AZ-300/AZ-301 подготовительные материалы
+<ul><li><i>OpenEdx - AZ-103 подготовительные материалы (Не обязательные, но очень полезные, т.к. можно на те же сервисы глянуть под другим углом)</i></li>
+	<li><i>OpenEdx - AZ-203 подготовительные материалы (Не обязательные, но очень полезные, т.к. можно на те же сервисы глянуть под другим углом)</i></li>
 </ul></li>
 	<li>Очень рекомендую сдать экзамен AZ-900. (Экзамен, подтверждающий, что вы знаете все ключевые понятия по Azure. Для Архитекторов это такой Checkpoint, в котором можно убедиться, что Вы идете верным путем)</li>
 	<li>На RoleIQ Pluralsight -> RoleIQ -> RoleIQ Pluralsight -> RoleIQ -> RoleIQ Pluralsight -> RoleIQ -> Microsoft Azure Solution Architect (тесты пройти, чтобы в своих навыках убедиться)
